@@ -1,0 +1,115 @@
+.home-page {
+
+    .text-zone {
+      position: absolute;
+      text-align: center;
+      top: 18%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 70%;
+      vertical-align: middle;
+      display: table-cell;
+      max-height: 50%;
+    }
+
+    // .text-zone {
+    //   position: relative;
+    //   text-align: center;
+    //   left: 11%;
+    //   top: 40%;
+    //   transform: translateY(-50%);
+    //   width: 80%;
+    //   max-height: 90%;
+    //   place-content: center;
+    // }
+
+
+    h1 {
+        color: #000000;
+        font-size: 60px;
+        line-height: 70px;
+        margin: 1;
+        font-family: 'Isabella Sans black';
+        letter-spacing: 15px;
+        font-weight: 420;
+        // animation: fadeIn 1s 0.8s backwards
+    
+        // &:before {
+        //   content: '<h1>';
+        //   font-family: 'Isabella Sans';
+        //   color: #000000;
+        //   font-size: 18px;
+        //   position: absolute;
+        //   margin-top: -40px;
+        //   left: -15px;
+        //   opacity: 0.6;
+        // }
+    
+      
+    }
+
+    @keyframes fadeIn {
+        from{opacity: 0;}
+        to {opacity: 1;}
+    }
+
+    h2 {
+        color: #8d8d8d;
+        font-weight: 400;
+        font-size: 30px;
+        // margin-left: -20px;
+        line-height: 120px;
+        font-family: 'Isabella Sans semibold';
+        letter-spacing: 3px;
+        animation: fadeIn 1s 0.8s backwards;
+      }
+
+    h3 {
+      color: #8d8d8d;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+      font-family: 'Isabella Sans';
+      // margin-left: -20px;
+      letter-spacing: 3px;
+      animation: fadeIn 1s 1.2s backwards;
+    }    
+      
+    h4 {
+      color: #8d8d8d;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+      font-family: 'Isabella Sans';
+      // margin-left: -20px;
+      letter-spacing: 3px;
+      animation: fadeIn 1s 1.2s backwards;
+    }
+    
+    ul {
+      list-style: none;
+      padding: 0px 30px;
+      animation: fadeIn 1s 1.7s backwards;
+  
+      li {
+
+        margin: 0px 10px;
+        display: inline;
+        
+        a {
+          padding: 0px 0;
+          font-size: 20px;
+          line-height: 30px;
+          color: #cfc8c8;
+        }
+  
+        &:hover {
+          .anchor-icon {
+            color: #cfc8c8;
+          }
+        }
+      }
+    }    
+
+}
+  

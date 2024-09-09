@@ -1,0 +1,73 @@
+.publications-page {
+
+  .text-zone {
+    position: absolute;
+    float: left;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    vertical-align: middle;
+    display: table-cell;
+    max-height: 50%;
+  }
+        
+    
+  h1 {
+    text-align: left;
+    font-size: 45px;
+    font-family: 'Isabella Sans';
+    color: #000000;
+    font-weight: 400;
+    margin-top: 0;
+    // margin-left: 30%;
+    position: relative;
+    margin-bottom: 40px;
+    left: -10spx;
+    // animation: fadeIn 1s 0.8s backwards;
+
+    // &:before {
+    //   content: '<h1>';
+    //   font-family: 'Isabella Sans', cursive;
+    //   color: #000000;
+    //   font-size: 18px;
+    //   position: absolute;
+    //   margin-top: -10px;
+    //   left: -10px;
+    //   opacity: 0.6;
+    //   line-height: 18px;
+    // }
+
+    // &:after {
+    //   content: '<h1/>';
+    //   font-family: 'Isabella Sans', cursive;
+    //   color: #000000;
+    //   font-size: 18px;
+    //   line-height: 18px;
+    //   position: absolute;
+    //   left: -30px;
+    //   bottom: -20px;
+    //   margin-left: 20px;
+    //   opacity: 0.6;
+    // }
+  }
+
+    ul {
+      padding: 0;
+      list-style: none;
+      text-align: left;
+  
+      li {
+
+        font-size: 18px;
+        color: #000000;
+        font-family: "Isabella Sans";
+        margin-bottom: 20px;
+        font-weight: 300;
+        max-width: fit-content;
+        // animation: fadeIn 1s 1.2s backwards;
+  
+      }
+    } 
+
+}

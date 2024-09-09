@@ -1,0 +1,64 @@
+$primary-color: #000000;
+
+// @import 'animate.css';
+// @import '~loaders.css/src/animations/pacman.scss';
+
+@font-face {
+  font-family: 'Isabella Sans';
+  src: url('./assets/fonts/Isabella Sans Medium.woff2') format('woff2'),
+    url('./assets/fonts/Isabella Sans Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Isabella Sans semibold';
+  src: url('./assets/fonts/Isabella Sans SemiBold.woff2') format('woff2'),
+    url('./assets/fonts/Isabella Sans SemiBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+// https://www.onlinewebfonts.com/search?q=Isabella+Sans
+
+@font-face {
+  font-family: 'Isabella Sans black';
+  src: url('./assets/fonts/Isabella Sans Black.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Isabella Sans light';
+  src: url('./assets/fonts/Isabella Sans Light.woff2') format('woff2'),
+    url('./assets/fonts/Isabella Sans Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+input,
+textarea {
+  font-family: 'Isabella Sans';
+}
+
+// .loader-hidden {
+//   display: none;
+// }
+
+// .loader-active {
+//   display: block;
+//   position: absolute;
+//   left: 0;
+//   right: 0;
+//   margin: auto;
+//   top: 0;
+//   bottom: 0;
+//   width: 50px;
+//   height: 50px;
+//   animation: fadeOut 1s 1s;
+//   animation-fill-mode: forwards;
+// }
