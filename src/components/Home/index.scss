@@ -3,7 +3,7 @@
     .text-zone {
       position: absolute;
       text-align: center;
-      top: 18%;
+      top: 10%;
       left: 50%;
       transform: translateX(-50%);
       width: 70%;
@@ -26,11 +26,11 @@
 
     h1 {
         color: #000000;
-        font-size: 60px;
-        line-height: 70px;
+        font-size: 40px;
+        line-height: 100px;
         margin: 1;
         font-family: 'Isabella Sans black';
-        letter-spacing: 15px;
+        letter-spacing: 18px;
         font-weight: 420;
         // animation: fadeIn 1s 0.8s backwards
     
@@ -54,31 +54,31 @@
     }
 
     h2 {
-        color: #8d8d8d;
+        color: #767575;
         font-weight: 400;
-        font-size: 30px;
-        // margin-left: -20px;
-        line-height: 120px;
+        font-size: 26px;
+        margin-top: -15px;
+        line-height: 90px;
         font-family: 'Isabella Sans semibold';
-        letter-spacing: 3px;
+        letter-spacing: 10px;
         animation: fadeIn 1s 0.8s backwards;
       }
 
     h3 {
-      color: #8d8d8d;
+      color: #767575;
       font-weight: 400;
-      font-size: 20px;
+      font-size: 18px;
       line-height: 30px;
       font-family: 'Isabella Sans';
-      // margin-left: -20px;
+      margin-top: 30px;
       letter-spacing: 3px;
       animation: fadeIn 1s 1.2s backwards;
     }    
       
     h4 {
-      color: #8d8d8d;
+      color: #767575;
       font-weight: 400;
-      font-size: 20px;
+      font-size: 18px;
       line-height: 30px;
       font-family: 'Isabella Sans';
       // margin-left: -20px;

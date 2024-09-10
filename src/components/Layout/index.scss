@@ -49,7 +49,7 @@
       top: 10%;
       left: 50%;
       transform: translateX(-50%);
-      width: 70%;
+      width: 60%;
       vertical-align: middle;
       display: table-cell;
       max-height: 50%;
@@ -58,20 +58,21 @@
     img {
       float: right;
       margin-left: 70px;
-      width: 26%;
+      margin-top: 15px;
+      width: 30%;
       height: auto;
       animation: none;
     }
 
       h1 {
-        font-size: 45px;
+        font-size: 30px;
         font-family: 'Isabella Sans';
         color: #000000;
         font-weight: 400;
         margin-top: 0;
         // margin-left: 30%;
         position: relative;
-        margin-bottom: 40px;
+        margin-bottom: 35px;
         left: -10spx;
         // animation: fadeIn 1s 0.8s backwards;
   
@@ -102,7 +103,7 @@
       }
   
       p {
-        font-size: 18px;
+        font-size: 15px;
         color: #000000;
         font-family: "Isabella Sans";
         font-weight: 300;
