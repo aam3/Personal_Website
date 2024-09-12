@@ -138,17 +138,18 @@
           display: flex;
         }
 
-        img {
-          position: static;  // Remove absolute positioning
-          margin: 0 auto 30px;  // Center the image and add some bottom margin
-          display: block;  // Ensure it's a block-level element
-        }        
-  
         .logo-link {
-          margin: 0;
+          margin: 0 0 10px 0;
           padding: 0;
-          width: 100%;  // Full width to help with centering
-          text-align: center;  // Center the logo link
+          width: 100%;
+          text-align: center;
+  
+          img {
+            position: static;
+            margin: 0 auto;
+            display: block;
+            width: 130px;  // Maintain the original width
+          }
         }
   
         a {
