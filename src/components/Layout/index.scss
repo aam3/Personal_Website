@@ -37,96 +37,19 @@
     // animation: fadeIn 1s forwards;
     // animation-delay: 1s;
   }
-  
-  // .container.resume-page,
-  // .container.about-page,
-  // .container.publications-page 
-  .container.about-page {
-    
-    .text-zone {
-      position: absolute;
-      float: left;
-      top: 10%;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 60%;
-      vertical-align: middle;
-      display: table-cell;
-      max-height: 50%;
-    }
 
-    img {
-      float: right;
-      margin-left: 70px;
-      margin-top: 15px;
-      width: 30%;
-      height: auto;
-      animation: none;
-    }
-
-      h1 {
-        font-size: 30px;
-        font-family: 'Isabella Sans';
-        color: #000000;
-        font-weight: 400;
-        margin-top: 0;
-        // margin-left: 30%;
-        position: relative;
-        margin-bottom: 35px;
-        left: -10spx;
-        // animation: fadeIn 1s 0.8s backwards;
+  .text-zone {
+    position: absolute;
+    float: center;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    vertical-align: middle;
+    display: table-cell;
+    max-height: 50%;
+  }  
   
-        // &:before {
-        //   content: '<h1>';
-        //   font-family: 'Isabella Sans', cursive;
-        //   color: #000000;
-        //   font-size: 18px;
-        //   position: absolute;
-        //   margin-top: -10px;
-        //   left: -10px;
-        //   opacity: 0.6;
-        //   line-height: 18px;
-        // }
-  
-        // &:after {
-        //   content: '<h1/>';
-        //   font-family: 'Isabella Sans', cursive;
-        //   color: #000000;
-        //   font-size: 18px;
-        //   line-height: 18px;
-        //   position: absolute;
-        //   left: -30px;
-        //   bottom: -20px;
-        //   margin-left: 20px;
-        //   opacity: 0.6;
-        // }
-      }
-  
-      p {
-        font-size: 15px;
-        color: #000000;
-        font-family: "Isabella Sans";
-        font-weight: 300;
-        max-width: fit-content;
-        // animation: fadeIn 1s 1.2s backwards;
-        // &:nth-of-type(1) {
-        //   animation-delay: 1.1s;
-        // }
-        // &:nth-of-type(2) {
-        //   animation-delay: 1.2s;
-        // }
-        // &:nth-of-type(3) {
-        //   animation-delay: 1.3s;
-        // }
-      }
-  
-    .text-animate-hover {
-      &:hover {
-        color: #878787;
-      }
-    }
-  }
-
 .footer {
   position: fixed;
   font-size: 17px;

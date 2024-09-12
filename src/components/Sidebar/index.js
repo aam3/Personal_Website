@@ -49,42 +49,14 @@ const Sidebar = () => {
         <FontAwesomeIcon 
           onClick={() => setShowNav(false)}
           icon={faClose}
-          color="#ffd700"
+          color="#f1f0ee"
           size="3x"
           className='close-icon' />
       </nav>
-      {/* <ul>
-        <li>
-          <a
-            href="https://www.linkedin.com/in/alisabeth-m-21273b117/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FontAwesomeIcon
-              icon={faLinkedin}
-              color="#4d4d4e"
-              className="anchor-icon"
-            />
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://github.com/aam3"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FontAwesomeIcon
-              icon={faGithub}
-              color="#4d4d4e"
-              className="anchor-icon"
-            />
-          </a>
-        </li>
-      </ul> */}
       <FontAwesomeIcon 
           onClick={() => setShowNav(true)}
           icon={faBars}
-          color="#ffd700"
+          color="#f1f0ee"
           size="3x"
           className='hamburger-icon' />
     </div>
