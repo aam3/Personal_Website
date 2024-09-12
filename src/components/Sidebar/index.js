@@ -13,10 +13,14 @@ import LogoS from '../../assets/images/Logo.svg'
 const Sidebar = () => {
   const [showNav, setShowNav] = useState(false);
 
+  const toggleNav = () => {
+    setShowNav(!showNav);
+  };  
+
   return (
     <div className="nav-bar">
       <nav className={showNav ? 'mobile-show' : ''}>
-        <Link to='/'>
+        <Link to='/' className="logo-link" onClick={() => setShowNav(false)}>
         <img className='signature-logo' src={LogoS} alt='logo'/>
         </Link>
         {/* <NavLink 
