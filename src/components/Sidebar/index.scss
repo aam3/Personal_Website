@@ -167,12 +167,13 @@
         }
        }
   
-       .hamburger-icon,
-       .close-icon {
-          position: absolute;
-          top: 15px;
-          right: 15px;
-          display: block;
-       }
     }
+  }
+
+  .hamburger-icon,
+  .close-icon {
+     position: absolute;
+     top: 15px;
+     right: 15px;
+     display: block;
   }
