@@ -149,7 +149,8 @@
           width: 100%;
           text-align: center;
           height: auto;
-          justify-content: center;
+          display: block;  // Change to block for vertical stacking
+          line-height: normal;  // Reset line-height
         }
 
         .close-icon {
