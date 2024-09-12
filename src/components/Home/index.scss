@@ -9,11 +9,11 @@
     h1 {
         color: #000000;
         font-size: 40px;
-        line-height: 7rem;
-        margin: 1;
+        line-height: 2rem;
         font-family: 'Isabella Sans black';
         letter-spacing: 18px;
         font-weight: 420;
+        margin-top: 8%;
         // animation: fadeIn 1s 0.8s backwards
     
         // &:before {
@@ -39,8 +39,9 @@
         color: #767575;
         font-weight: 400;
         font-size: 26px;
-        // margin-top: -15px;
-        line-height: 12rem;
+        margin-top: 10%;
+        margin-bottom: 8%;
+        line-height: 2rem;
         font-family: 'Isabella Sans semibold';
         letter-spacing: 10px;
         animation: fadeIn 1s 0.8s backwards;
