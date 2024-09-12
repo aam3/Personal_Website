@@ -144,15 +144,16 @@
         }
   
         a:after {
-          opacity: 1;
+          color: #cfc8c8;
+          opacity: 0;
           position: initial;
           width: auto;
           margin-left: 10PX;
         }
   
-        a svg {
-          opacity: 1 !important;
-        }
+        // a svg {
+        //   opacity: 1 !important;
+        // }
        }
   
        .hamburger-icon,
