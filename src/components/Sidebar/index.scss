@@ -126,18 +126,22 @@
       nav {
         // display: none; // Hide nav by default on mobile
         position: fixed;
-        top: 70px; // Start below the header
+        top: 70px;
         left: 0;
-        width: 60%;
+        width: 100%;
         height: calc(100vh - 70px);
         background: #181818;
-        flex-direction: column;
+        flex-direction: column; // Ensure column layout
         justify-content: flex-start;
+        align-items: center; // Center items horizontally
         padding-top: 20px;
         z-index: 4;
+        transition: transform 0.3s ease-in-out;
+        transform: translateX(-100%);       
   
         &.mobile-show {
-          display: flex; // Show nav when mobile-show class is applied
+          display: flex;
+          transform: translateX(0);
         }
   
         a {
@@ -145,6 +149,8 @@
           font-size: 24px;
           width: 100%;
           text-align: center;
+          height: auto; // Reset height for mobile
+          justify-content: center; // Center text horizontally          
         }
       }
   
