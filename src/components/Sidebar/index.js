@@ -13,9 +13,9 @@ import LogoS from '../../assets/images/Logo.svg'
 const Sidebar = () => {
   const [showNav, setShowNav] = useState(false);
 
-  // const toggleNav = () => {
-  //   setShowNav(!showNav);
-  // };  
+  const toggleNav = () => {
+    setShowNav(!showNav);
+  };  
 
   return (
     <div className="nav-bar">
@@ -51,7 +51,7 @@ const Sidebar = () => {
           className='close-icon' />
       </nav>
       <FontAwesomeIcon 
-          onClick={() => setShowNav(true)}
+          onClick={toggleNav}
           icon={faBars}
           color="#f1f0ee"
           size="3x"
