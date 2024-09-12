@@ -132,6 +132,10 @@
         margin: 0;
         z-index: 5;
         position: fixed;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 20px;
+        z-index: 4;        
 
         img {
           display: block;
