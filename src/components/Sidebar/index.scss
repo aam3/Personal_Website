@@ -132,6 +132,15 @@
         margin: 0;
         z-index: 2;
         position: fixed;
+
+        img {
+          position: absolute;
+          // z-index: 1;
+          // display: inline;
+          // width: 130px;
+          // margin-top: -23px;
+          // margin-left: -120px;
+        }        
   
         &.mobile-show {
           display: block;
@@ -148,7 +157,7 @@
           opacity: 0;
           position: initial;
           width: auto;
-          margin-left: 10PX;
+          // margin-left: 10PX;
         }
   
         // a svg {
