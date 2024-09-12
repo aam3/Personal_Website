@@ -51,7 +51,7 @@ const Sidebar = () => {
           className='close-icon' />
       </nav>
       <FontAwesomeIcon 
-          onClick={toggleNav}
+          onClick={() => setShowNav(true)}
           icon={faBars}
           color="#f1f0ee"
           size="3x"
