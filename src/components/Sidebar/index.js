@@ -18,9 +18,8 @@ const Sidebar = () => {
   };  
 
   return (
-    <>
-    <div className={`nav-bar ${showNav ? 'mobile-show' : ''}`}>
-      <nav>
+    <div className="nav-bar">
+      <nav className={showNav ? 'mobile-show' : ''}>
         <div class="nav-content">
           <Link to='/' className="logo-link" onClick={() => setShowNav(false)}>
           <img className='signature-logo' src={LogoS} alt='logo'/>
@@ -60,7 +59,6 @@ const Sidebar = () => {
           size="3x"
           className='hamburger-icon' />
     </div>
-    </>
   )
 }
 
