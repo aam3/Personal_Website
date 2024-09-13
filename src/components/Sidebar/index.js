@@ -18,6 +18,7 @@ const Sidebar = () => {
   };  
 
   return (
+    <>
     <div className={`nav-bar ${showNav ? 'mobile-show' : ''}`}>
       <nav>
         <div class="nav-content">
@@ -46,7 +47,7 @@ const Sidebar = () => {
             onClick={() => setShowNav(false)}>Resume</NavLink>
         </div>
         <FontAwesomeIcon 
-          onClick={() => setShowNav(false)}
+          onClick={toggleNav}
           icon={faClose}
           color="#f1f0ee"
           size="3x"
@@ -59,6 +60,7 @@ const Sidebar = () => {
           size="3x"
           className='hamburger-icon' />
     </div>
+    </>
   )
 }
 
