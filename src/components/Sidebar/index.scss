@@ -119,7 +119,7 @@
   @media screen and (max-width: 1200px) {
     .nav-bar { 
       // justify-content: flex-end;
-      position: relative;
+      // position: relative;
       top: 0;
       left: 0;
       width: 60%;
@@ -131,15 +131,12 @@
       z-index: 4;      
 
       nav {
-        float: left;
-        text-align: center;
-        vertical-align: middle;
-        position: relative;
-        height: 60px;
-        margin-top: 27px;
-        width: 100%;
-        font-family: 'Isabella Sans light';
-        transform: translateX(2%);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-height: 80vh;
+        overflow-y: auto;
   
         &.mobile-show {
           display: block;
@@ -147,11 +144,9 @@
 
         .nav-content {
           display: flex;
-          justify-content: center;
-          align-items: center;
           flex-direction: column;
-          height: 60%;
-          width: 100%;
+          align-items: center;
+          justify-content: center;
           // position: absolute;
           // top: 50%;
           // left: 50%;
@@ -180,7 +175,6 @@
           font-size: 24px;
           width: 100%;
           text-align: center;
-          height: auto;
           display: block;
           line-height: normal;
           color: #9a9898;
