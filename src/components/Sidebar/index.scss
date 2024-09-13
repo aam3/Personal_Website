@@ -118,67 +118,57 @@
   
   @media screen and (max-width: 1200px) {
     .nav-bar { 
-      // justify-content: flex-end;
-      // position: relative;
-      top: 0;
-      left: 0;
-      width: 60%;
       height: 100vh;
-      background: #181818;
-      // flex-direction: column;
-      // justify-content: center;
-      // align-items: center;
-      z-index: 4;      
+      position: fixed;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      transition: left 0.3s ease-in-out; 
+
+      &.mobile-show {
+        left: 0;
+        display: block;
+      }
 
       nav {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        max-height: 80vh;
-        overflow-y: auto;
-  
-        &.mobile-show {
-          display: block;
-        }
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
 
         .nav-content {
-          display: flex;
           flex-direction: column;
           align-items: center;
-          justify-content: center;
-          // position: absolute;
-          // top: 50%;
-          // left: 50%;
-          // transform: translate(-50%, -50%);
-          // width: 100%;
-          // text-align: center;
         }
 
         .logo-link {
           // margin: 0 0 -100px 0;
-          padding: 0;
-          width: 100%;
-          text-align: center;
-          display: block;
+          // padding: 0;
+          // width: 100%;
+          // text-align: center;
+          // display: block;
   
           img {
-            position: static;
-            margin: 0 auto;
-            display: block;
-            width: 130px;  // Maintain the original width
+            margin: 0 0 30px 0;
+            // position: static;
+            // margin: 0 auto;
+            // display: block;
+            // width: 130px;  // Maintain the original width
           }
         }
   
         a {
-          padding: 15px 0;
           font-size: 24px;
+          padding: 15px 0;
           width: 100%;
-          text-align: center;
-          display: block;
-          line-height: normal;
-          color: #9a9898;
-          text-decoration: none;
+          text-align: center;          
+          // padding: 15px 0;
+          // font-size: 24px;
+          // width: 100%;
+          // text-align: center;
+          // display: block;
+          // line-height: normal;
+          // color: #9a9898;
+          // text-decoration: none;
         }
 
         .close-icon {
