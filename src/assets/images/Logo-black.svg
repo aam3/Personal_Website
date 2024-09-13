@@ -31,9 +31,10 @@
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg6" />
+     inkscape:current-layer="svg6"
+     inkscape:rotation="-90" />
   <g
-     transform="matrix(2.8347,0,0,2.848,-98.572752,40.814357)"
+     transform="matrix(0,4.0753649,-4.4354393,0,287.67198,-142.13763)"
      fill="#d0d0d0"
      stroke="#e1e1e1"
      id="g3"
@@ -41,7 +42,7 @@
     <text
        transform="scale(0.26458)"
        stroke-width="3.9121"
-       style="white-space:pre;shape-inside:url(#rect27);fill:#030303;fill-opacity:1;stroke:#181818;stroke-opacity:1"
+       style="white-space:pre;shape-inside:url(#rect27);display:inline;fill:#030303;fill-opacity:1;stroke:#181818;stroke-opacity:1"
        xml:space="preserve"
        id="text1" />
     <g
@@ -68,12 +69,12 @@
      stroke="#7f7f7f"
      id="g6"
      style="fill:#3d3d3d;fill-opacity:1;stroke:#151515;stroke-opacity:1"
-     transform="translate(-1.7797518,105.00536)">
+     transform="matrix(0,1.4376706,-1.5573874,0,187.70172,-2.9811729)">
     <text
        transform="matrix(0.75,0,0,0.75352,-94.793,-63.326)"
        fill="#d0d0d0"
        stroke-width="0.13302"
-       style="white-space:pre;shape-inside:url(#rect27);fill:#3d3d3d;fill-opacity:1;stroke:#151515;stroke-opacity:1"
+       style="white-space:pre;shape-inside:url(#rect27);display:inline;fill:#3d3d3d;fill-opacity:1;stroke:#151515;stroke-opacity:1"
        xml:space="preserve"
        id="text3" />
     <g
