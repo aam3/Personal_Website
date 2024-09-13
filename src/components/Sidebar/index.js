@@ -44,18 +44,18 @@ const Sidebar = () => {
             className="resume-link"
             to="/resume"
             onClick={() => setShowNav(false)}>Resume</NavLink>
+          <FontAwesomeIcon 
+            onClick={toggleNav}
+            icon={faClose}
+            color="#d6d5d5"
+            size="3x"
+            className='close-icon' />            
         </div>
-        <FontAwesomeIcon 
-          onClick={toggleNav}
-          icon={faClose}
-          color="#f1f0ee"
-          size="3x"
-          className='close-icon' />
       </nav>
       <FontAwesomeIcon 
           onClick={toggleNav}
           icon={faBars}
-          color="#f1f0ee"
+          color="#181818"
           size="3x"
           className='hamburger-icon' />
     </div>
