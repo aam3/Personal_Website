@@ -25,3 +25,12 @@
         left: -10spx;
       }
 }
+
+
+@media screen and (max-width: 768px) {
+  
+  .pdf-zone {
+    display: none;
+  }
+
+}
