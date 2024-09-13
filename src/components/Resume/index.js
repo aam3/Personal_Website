@@ -7,7 +7,7 @@ const Resume = () => {
 return(
     <div className='container resume-page'>
         <div className="text-zone">
-        <h1>RESUME</h1>
+        <h1><a href={resumePDF}>RESUME</a></h1>
             <div className="pdf-zone">
                 <iframe src={resumePDF} title='myresume' width='100%' height='800px' />
             </div>
