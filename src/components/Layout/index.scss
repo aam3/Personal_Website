@@ -61,8 +61,6 @@
 @media screen and (max-width: 768px) {
   .container.about-page, .container.publications-page, .container.resume-page {
 
-    overflow-x: scroll;
-
     .text-zone {
 
       position: absolute;
@@ -73,6 +71,10 @@
       width: 80%;
       vertical-align: middle;
       display: table-cell;
+
+      .img {
+        width: 40%;
+      }
 
       h1 {
         font-size: 40px;
