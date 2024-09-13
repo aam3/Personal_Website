@@ -10,7 +10,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: #f1f0ee;
   overflow-y: scroll;
-  overflow-x: scroll;
+  overflow-x: hidden;
   display: block;
   padding-bottom: 800px;
 }
