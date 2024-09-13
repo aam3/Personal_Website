@@ -141,12 +141,12 @@
         }
 
         .nav-content {
-          position: relative;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
           width: 100%;
-          text-align: center;
-          display: flex;
-          flex-direction: column;
-          align-items: center;          
+          text-align: center;  
           // position: absolute;
           // top: 50%;
           // left: 50%;
@@ -160,6 +160,7 @@
           padding: 0;
           width: 100%;
           text-align: center;
+          display: block;
   
           img {
             position: static;
@@ -175,8 +176,10 @@
           width: 100%;
           text-align: center;
           height: auto;
-          display: block;  // Change to block for vertical stacking
-          line-height: normal;  // Reset line-height
+          display: block;
+          line-height: normal;
+          color: #9a9898;
+          text-decoration: none;
         }
 
         .close-icon {
