@@ -121,7 +121,7 @@
       height: 100vh;
       position: fixed;
       top: 0;
-      left: -100%;
+      // left: -100%;
       width: 100%;
       transition: left 0.3s ease-in-out; 
 
@@ -173,12 +173,13 @@
 
         .close-icon {
           display: block;
-          position: absolute;
+          position: fixed;
           top: 15px;
           right: 15px;
           cursor: pointer;
-        }        
-      }
+        }
+        
+      }    
   
       .hamburger-icon {
         display: block;
