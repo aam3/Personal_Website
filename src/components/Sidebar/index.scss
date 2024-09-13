@@ -121,23 +121,26 @@
       height: 100vh;
       position: fixed;
       top: 0;
-      // left: -100%;
+      left: 0;
       width: 100%;
       transition: left 0.3s ease-in-out; 
 
       nav {
         height: 100%;
+        display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
 
         .nav-content {
+          display: flex;
           flex-direction: column;
           align-items: center;
           width: 100%;
         }
 
         &.mobile-show {
-          left: 0;
+          // left: 0;
           display: block;
         }
 
@@ -159,10 +162,12 @@
   
         a {
           font-size: 24px;
+          color: #9a9898;
+          text-decoration: none;
           padding: 15px 0;
           width: 100%;
-          text-align: center;     
-          margin-bottom: 20px;     
+          text-align: center;
+          margin-bottom: 10px;
           // padding: 15px 0;
           // font-size: 24px;
           // width: 100%;
