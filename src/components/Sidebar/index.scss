@@ -103,9 +103,9 @@
   
   .hamburger-icon, .close-icon {
     display: none;
-    position: absolute;  // Added
-    right: 5px;         // Added
-    top: 5px;           // Added
+    position: fixed;  // Added
+    right: 15px;         // Added
+    top: 15px;           // Added
     cursor: pointer;     // Added
     font-size: 24px;     // Added
     color: #181818;         // Added    
@@ -196,7 +196,7 @@
   
       .hamburger-icon {
         display: block;
-        position: absolute;
+        // position: absolute;
         top: 15px;
         right: 15px;
       }
