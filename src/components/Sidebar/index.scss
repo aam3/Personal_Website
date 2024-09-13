@@ -118,6 +118,9 @@
   
   @media screen and (max-width: 1200px) {
     .nav-bar { 
+      display: flex;
+      justify-content: center;
+      align-items: center;
       height: 100vh;
       position: fixed;
       top: 0;
@@ -150,13 +153,13 @@
           justify-content: center;
           width: 100%;
   
-          img {
-            // margin: 0 0 50px 0;
-            // position: static;
-            // margin: 0 auto;
-            // display: block;
-            // width: 130px;  // Maintain the original width
-          }
+          // img {
+          //   // margin: 0 0 50px 0;
+          //   // position: static;
+          //   // margin: 0 auto;
+          //   // display: block;
+          //   // width: 130px;  // Maintain the original width
+          // }
         }
   
         a {
