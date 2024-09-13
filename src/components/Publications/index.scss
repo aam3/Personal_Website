@@ -75,12 +75,23 @@
 @media screen and (max-width: 768px) {
   .publications-page {
     .text-zone {
-      left: 5%;
-      width: 90%;
-      padding: 20px;
-      box-sizing: border-box;
-      position: relative;
-      overflow-y: auto;
+
+      position: absolute;
+      float: center;
+      top: 10%;
+      left: 20%;
+      transform: translateX(-50%);
+      width: 80%;
+      vertical-align: middle;
+      display: table-cell;
+      // max-height: 50%;
+
+      // left: 5%;
+      // width: 90%;
+      // padding: 20px;
+      // box-sizing: border-box;
+      // position: relative;
+      // overflow-y: auto;
 
       h1 {
         font-size: 40px;
