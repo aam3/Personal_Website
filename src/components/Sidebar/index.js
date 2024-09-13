@@ -19,8 +19,8 @@ const Sidebar = () => {
 
   return (
     <div className="nav-bar">
-      <nav className={showNav ? 'mobile-show' : ''}>
-        <div class="nav-content">
+      <nav>
+        <div className={`nav-content ${showNav ? 'mobile-show' : ''}`}>
           <Link to='/' className="logo-link" onClick={() => setShowNav(false)}>
           <img className='signature-logo' src={LogoS} alt='logo'/>
           </Link>
