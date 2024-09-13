@@ -79,6 +79,8 @@
       width: 90%;
       padding: 20px;
       box-sizing: border-box;
+      position: relative;
+      overflow-y: auto;
 
       h1 {
         font-size: 40px;
