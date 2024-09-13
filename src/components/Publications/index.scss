@@ -65,10 +65,15 @@
         margin-bottom: 20px;
         font-weight: 300;
         max-width: fit-content;
-        flex-wrap: wrap;
         // animation: fadeIn 1s 1.2s backwards;
   
       }
     } 
 
+}
+
+@media screen and (max-width: 1200px) {
+  .text_zone {
+    width: 80%;
+  }
 }
