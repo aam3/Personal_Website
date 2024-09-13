@@ -141,11 +141,6 @@
         transform: translateX(-100%);
         transition: left 0.3s ease-in-out;        
 
-        &.mobile-show {
-          display: block;
-          transform: translateX(0);
-        }
-
         .nav-content {
           display: flex;
           flex-direction: column;
@@ -153,6 +148,12 @@
           width: 100%;
           height: 100%;
           justify-content: center;
+
+          &.mobile-show {
+            display: block;
+            transform: translateX(0);
+          }
+
         }
 
         // &.mobile-show {
