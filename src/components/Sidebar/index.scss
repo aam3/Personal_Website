@@ -133,6 +133,7 @@
         .nav-content {
           flex-direction: column;
           align-items: center;
+          width: 100%;
         }
 
         &.mobile-show {
@@ -148,7 +149,7 @@
           // display: block;
   
           img {
-            margin: 0 0 30px 0;
+            margin: 0 0 50px 0;
             // position: static;
             // margin: 0 auto;
             // display: block;
@@ -160,7 +161,8 @@
           font-size: 24px;
           padding: 15px 0;
           width: 100%;
-          text-align: center;          
+          text-align: center;     
+          margin-bottom: 20px;     
           // padding: 15px 0;
           // font-size: 24px;
           // width: 100%;
@@ -173,9 +175,10 @@
 
         .close-icon {
           display: block;
-          position: fixed;
-          top: 15px;
-          right: 15px;
+          position: absolute;
+          top: 30px;
+          right: 30px;
+          font-size: 36px;
           cursor: pointer;
         }
         
