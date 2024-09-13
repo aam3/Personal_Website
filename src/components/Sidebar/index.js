@@ -29,7 +29,7 @@ const Sidebar = () => {
             activeclassname="active"
             className="about-link"
             to="/about"
-            onClick={() => setTimeout(() => setShowNav(false), 100)}>About</NavLink>
+            onClick={() => setShowNav(false)}>About</NavLink>
           <NavLink
             activeclassname="active"
             className="publications-link"
