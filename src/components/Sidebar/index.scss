@@ -126,7 +126,13 @@
       top: 0;
       left: 0;
       width: 75%;
-      transition: left 0.3s ease-in-out; 
+      transform: translateX(-100%);
+      transition: left 0.3s ease-in-out;
+
+      &.mobile-show {
+        display: block;
+        transform: translateX(0);
+      }
 
       nav {
         height: 100%;
@@ -145,10 +151,10 @@
           justify-content: center;
         }
 
-        &.mobile-show {
-          // left: 0;
-          display: block;
-        }
+        // &.mobile-show {
+        //   // left: 0;
+        //   display: block;
+        // }
 
         .logo-link {
           outline-color: #d21717;
