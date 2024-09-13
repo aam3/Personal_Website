@@ -119,20 +119,23 @@
   @media screen and (max-width: 1200px) {
     .nav-bar { 
       justify-content: flex-end;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 60%;
+      height: 100vh;
+      background: #181818;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      // padding-top: 10px;
+      z-index: 4;      
 
       nav {
         // display: none;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 60%;
-        height: 100vh;
-        background: #181818;
-        flex-direction: column;
+        display: flex;
         justify-content: center;
         align-items: center;
-        // padding-top: 10px;
-        z-index: 4;
   
         &.mobile-show {
           display: block;
@@ -148,7 +151,7 @@
         }
 
         .logo-link {
-          margin: 0 0 0px 0;
+          margin: 0 0 -100px 0;
           padding: 0;
           width: 100%;
           text-align: center;
