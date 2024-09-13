@@ -13,10 +13,6 @@ import LogoS from '../../assets/images/Logo.svg'
 const Sidebar = () => {
   const [showNav, setShowNav] = useState(false);
 
-  const toggleNav = () => {
-    setShowNav(prevState => !prevState);
-  };
-
   return (
     <div className="nav-bar">
       <nav>
@@ -45,7 +41,7 @@ const Sidebar = () => {
             to="/resume"
             onClick={() => setShowNav(false)}>Resume</NavLink>
           <FontAwesomeIcon 
-            onClick={toggleNav}
+            onClick={() => setShowNav(false)}
             icon={faClose}
             color="#d6d5d5"
             size="3x"
@@ -53,7 +49,7 @@ const Sidebar = () => {
         </div>
       </nav>
       <FontAwesomeIcon 
-          onClick={toggleNav}
+          onClick={() => setShowNav(true)}
           icon={faBars}
           color="#181818"
           size="3x"
