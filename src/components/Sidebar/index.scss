@@ -128,7 +128,6 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      // padding-top: 10px;
       z-index: 4;      
 
       nav {
@@ -142,12 +141,18 @@
         }
 
         .nav-content {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
+          position: relative;
           width: 100%;
           text-align: center;
+          display: flex;
+          flex-direction: column;
+          align-items: center;          
+          // position: absolute;
+          // top: 50%;
+          // left: 50%;
+          // transform: translate(-50%, -50%);
+          // width: 100%;
+          // text-align: center;
         }
 
         .logo-link {
