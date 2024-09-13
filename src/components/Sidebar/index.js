@@ -20,29 +20,31 @@ const Sidebar = () => {
   return (
     <div className="nav-bar">
       <nav className={showNav ? 'mobile-show' : ''}>
-        <Link to='/' className="logo-link" onClick={() => setShowNav(false)}>
-        <img className='signature-logo' src={LogoS} alt='logo'/>
-        </Link>
-        {/* <NavLink 
-          exact="true"
-          activeclassname="active"
-          to="/"
-          onClick={() => setShowNav(false)}>Home</NavLink> */}
-        <NavLink 
-          activeclassname="active"
-          className="about-link"
-          to="/about"
-          onClick={() => setShowNav(false)}>About</NavLink>
-        <NavLink
-          activeclassname="active"
-          className="publications-link"
-          to="/publications"
-          onClick={() => setShowNav(false)}>Publications</NavLink>
-        <NavLink
-          activeclassname="active"
-          className="resume-link"
-          to="/resume"
-          onClick={() => setShowNav(false)}>Resume</NavLink>
+        <div class="nav-content">
+          <Link to='/' className="logo-link" onClick={() => setShowNav(false)}>
+          <img className='signature-logo' src={LogoS} alt='logo'/>
+          </Link>
+          {/* <NavLink 
+            exact="true"
+            activeclassname="active"
+            to="/"
+            onClick={() => setShowNav(false)}>Home</NavLink> */}
+          <NavLink 
+            activeclassname="active"
+            className="about-link"
+            to="/about"
+            onClick={() => setShowNav(false)}>About</NavLink>
+          <NavLink
+            activeclassname="active"
+            className="publications-link"
+            to="/publications"
+            onClick={() => setShowNav(false)}>Publications</NavLink>
+          <NavLink
+            activeclassname="active"
+            className="resume-link"
+            to="/resume"
+            onClick={() => setShowNav(false)}>Resume</NavLink>
+        </div>
         <FontAwesomeIcon 
           onClick={() => setShowNav(false)}
           icon={faClose}
