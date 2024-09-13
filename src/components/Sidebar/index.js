@@ -14,8 +14,8 @@ const Sidebar = () => {
   const [showNav, setShowNav] = useState(false);
 
   const toggleNav = () => {
-    setShowNav(!showNav);
-  };  
+    setShowNav(prevState => !prevState);
+  };
 
   return (
     <div className="nav-bar">
