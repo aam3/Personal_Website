@@ -8,10 +8,10 @@ const About = () => {
 
         <div className="container about-page">
         <div className="text-zone">
-        <img src={ProfilePic} alt="Alisabeth"/>
         <h1>
             ABOUT ME
         </h1>
+        <img src={ProfilePic} alt="Alisabeth"/>
         <p>
             I'm a data scientist with 6 years experience in conceptualizing and programming 
             data-driven solutions in multiple industries and fields. But in short, 
