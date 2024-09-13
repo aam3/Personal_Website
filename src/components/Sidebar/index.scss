@@ -138,9 +138,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        // margin-top: -100px;
         transform: translateX(-100%);
-        transition: left 0.3s ease-in-out;        
+        transition: left 0.5s ease-in-out;        
 
         &.mobile-show {
           transform: translateX(0);
@@ -186,8 +185,8 @@
         .close-icon {
           display: block;
           position: absolute;
-          top: 50px;
-          right: 20px;
+          top: 15px;
+          right: 15px;
           font-size: 36px;
           cursor: pointer;
         }
