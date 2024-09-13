@@ -117,7 +117,8 @@
   
   
   @media screen and (max-width: 1200px) {
-    .nav-bar { 
+    .nav-bar {
+      background: transparent;
       display: flex;
       justify-content: center;
       align-items: center;
