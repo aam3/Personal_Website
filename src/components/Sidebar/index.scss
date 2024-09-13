@@ -118,35 +118,37 @@
   
   @media screen and (max-width: 1200px) {
     .nav-bar { 
-      justify-content: flex-end;
-      position: fixed;
+      // justify-content: flex-end;
+      position: relative;
       top: 0;
       left: 0;
       width: 60%;
       height: 100vh;
       background: #181818;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+      // flex-direction: column;
+      // justify-content: center;
+      // align-items: center;
       z-index: 4;      
 
       nav {
-        // display: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        float: left;
+        text-align: center;
+        vertical-align: middle;
+        position: relative;
+        height: 60px;
+        margin-top: 27px;
+        width: 100%;
+        font-family: 'Isabella Sans light';
+        transform: translateX(2%);
   
         &.mobile-show {
           display: block;
         }
 
         .nav-content {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          width: 100%;
-          text-align: center;  
+          display: flex;
+          justify-content: center;
+          align-items: center;
           // position: absolute;
           // top: 50%;
           // left: 50%;
