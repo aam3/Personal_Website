@@ -4,7 +4,7 @@
     height: 70px;
     position: relative;
     top: 0;
-    z-index: 3;
+    z-index: 1001;
 
   
     nav {
@@ -108,7 +108,8 @@
     top: 15px;           // Added
     cursor: pointer;     // Added
     font-size: 24px;     // Added
-    color: #d6d5d5;        // Added    
+    color: #d6d5d5;        // Added  
+    z-index: 1002;  
   }
   
   
