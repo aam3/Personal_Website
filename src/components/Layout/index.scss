@@ -83,8 +83,18 @@
 
     &.mobile-show {
       display: block;
-      transform: translateX(0);
     }
+
+    .nav-bar {
+      transform: translateX(-100%);
+      transition: left 0.5s ease-in-out;  
+
+      &.mobile-show {
+        transform: translateX(0);
+      }
+
+    }
+
 
   }
 
