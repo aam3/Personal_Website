@@ -67,9 +67,9 @@
 
     .text-zone {
 
-      position: fixed;
+      position: absolute;
       float: center;
-      top: 10%;
+      top: 50%;
       left: 50%;
       transform: translateX(-50%);
       width: 80%;
