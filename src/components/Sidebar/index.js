@@ -14,8 +14,8 @@ const Sidebar = () => {
   const [showNav, setShowNav] = useState(false);
 
   return (
-    <div className="nav-bar">
-      <nav className={showNav ? 'mobile-show' : ''}>
+    <div className={`nav-bar ${showNav ? 'mobile-show' : ''}`}>
+      <nav>
         <div className="nav-content">
           <Link to='/' className="logo-link" onClick={() => setShowNav(false)}>
           <img className='signature-logo' src={LogoS} alt='logo'/>
