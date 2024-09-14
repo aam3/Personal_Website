@@ -82,15 +82,15 @@
       display: block;
     }
 
-    // .nav-bar {
-    //   transform: translateX(-100%);
-    //   transition: left 0.5s ease-in-out;  
+    .nav-bar {
+      transform: translateX(-100%);
+      transition: left 0.5s ease-in-out;  
 
-    //   &.mobile-show {
-    //     transform: translateX(0);
-    //   }
+      &.mobile-show {
+        transform: translateX(0);
+      }
 
-    // }
+    }
 
 
   }
