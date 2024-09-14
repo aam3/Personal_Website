@@ -62,12 +62,12 @@
 
   .container.about-page, .container.publications-page, .container.resume-page {
 
-    height: 90%;
+    // height: 90%;
     z-index: 1;
 
     .text-zone {
 
-      position: absolute;
+      position: fixed;
       float: center;
       top: 10%;
       left: 50%;
