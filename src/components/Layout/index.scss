@@ -47,6 +47,16 @@
     display: table-cell;
     max-height: 50%;
   }  
+
+.hamburger-icon {
+  display: none;
+  position: fixed;  // Added
+  right: 15px;         // Added
+  top: 15px;           // Added
+  cursor: pointer;     // Added
+  font-size: 24px;     // Added
+  color: #181818;         // Added    
+} 
   
 .footer {
   color: #767575;
@@ -57,11 +67,20 @@
   font-style: italic;
 }
 
+// @media screen and (max-width: 1200px) {
+
 
 @media screen and (max-width: 768px) {
 
+  .hamburger-icon {
+    display: block;
+    top: 15px;
+    right: 15px;
+    // z-index: 1000;
+  }
+
   .container.about-page, .container.publications-page, .container.resume-page {
-    
+
     z-index: 1;
 
     .text-zone {

@@ -101,18 +101,14 @@
   
   }
   
-  .hamburger-icon, .close-icon {
+  .close-icon {
     display: none;
     position: fixed;  // Added
     right: 15px;         // Added
     top: 15px;           // Added
     cursor: pointer;     // Added
     font-size: 24px;     // Added
-    color: #181818;         // Added    
-  }
-
-  .close-icon {
-    color: #d6d5d5;
+    color: #d6d5d5;        // Added    
   }
   
   
@@ -194,12 +190,6 @@
         
       }
   
-      .hamburger-icon {
-        display: block;
-        top: 15px;
-        right: 15px;
-        z-index: 1000;
-      }
 
       body.mobile-menu-open {
         overflow: hidden;
