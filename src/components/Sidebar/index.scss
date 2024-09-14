@@ -123,9 +123,6 @@
       top: 0;
       left: 0;
       width: 75%;
-      // transform: translateX(-100%);
-      // transition: left 0.3s ease-in-out;
-
 
       nav {
         background: #181818;
@@ -134,12 +131,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        transform: translateX(-100%);
-        transition: left 0.5s ease-in-out;
-
-        &.mobile-show {
-          transform: translateX(0);
-        }
 
         .nav-content {
           display: flex;
