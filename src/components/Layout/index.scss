@@ -75,12 +75,14 @@
 
   .nav-container {
 
+    display: none;
     position: fixed;
     transform: translateX(-100%);
     transition: left 0.5s ease-in-out;
     z-index: 2;
 
     &.mobile-show {
+      display: block;
       transform: translateX(0);
     }
 
