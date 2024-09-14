@@ -74,7 +74,7 @@
 
   .nav-container {
 
-    // display: none;
+    display: none;
     position: fixed;
     z-index: 1000;
 
@@ -144,6 +144,10 @@
         }
       }
     }
+  }
+
+  body.mobile-menu-open {
+    overflow: hidden;
   }
 
 }
