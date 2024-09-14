@@ -75,14 +75,14 @@
   .nav-container {
 
     // display: none;
-    transform: translateX(-100%);
-    transition: left 0.5s ease-in-out;
+    // transform: translateX(-100%);
+    // transition: left 0.5s ease-in-out;
     position: fixed;
     z-index: 1000;
 
-    &.mobile-show {
-      transform: translateX(0);
-    }
+    // &.mobile-show {
+    //   transform: translateX(0);
+    // }
   }
 
 
