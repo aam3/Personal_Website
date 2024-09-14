@@ -56,7 +56,6 @@
   cursor: pointer;     // Added
   font-size: 24px;     // Added
   color: #181818;         // Added
-  z-index: 10;  
 } 
   
 .footer {
@@ -77,6 +76,7 @@
 
     // display: none;
     position: fixed;
+    z-index: 1000;
 
     &.mobile-show {
       display: block;
@@ -100,11 +100,12 @@
     display: block;
     top: 15px;
     right: 15px;
+    z-index: 1001;
   }
 
   .container.about-page, .container.publications-page, .container.resume-page {
 
-    z-index: -1;
+    z-index: 1;
 
     .text-zone {
 
