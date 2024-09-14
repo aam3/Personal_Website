@@ -114,6 +114,7 @@
   
   @media screen and (max-width: 1200px) {
     .nav-bar {
+      z-index: 2;
       background: transparent;
       display: flex;
       justify-content: center;
