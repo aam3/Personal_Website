@@ -4,6 +4,7 @@
     height: 70px;
     position: relative;
     top: 0;
+    z-index: 2;
   
     nav {
       float: left;
@@ -15,6 +16,7 @@
       width: 100%;
       font-family: 'Isabella Sans light';
       transform: translateX(2%);
+      z-index: 3;
 
       img {
         position: absolute;
@@ -23,6 +25,7 @@
         width: 130px;
         margin-top: -23px;
         margin-left: -120px;
+        z-index: 4;
       }
   
       a {
@@ -34,6 +37,7 @@
         position: relative;
         text-decoration: none;
         padding: 40px;
+        z-index: 4;
   
         i {
           transition: all 0.3s ease-out;

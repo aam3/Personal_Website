@@ -77,7 +77,6 @@
 
     display: none;
     position: fixed;
-    z-index: 2;
 
     &.mobile-show {
       display: block;
@@ -146,8 +145,4 @@
     }
   }
 
-  .page {
-    position: relative;
-    z-index: 1;
-  }
 }
