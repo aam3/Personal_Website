@@ -184,4 +184,15 @@
         overflow: hidden;
       }
     }
+
+    // Show the content when the parent .nav-container has the mobile-show class
+    .nav-container.mobile-show {
+      .nav-bar {
+        nav {
+          .nav-content, .logo-link, a, .close-icon {
+            opacity: 1; // Show the content
+          }
+        }
+      }
+    }    
   }

@@ -20,11 +20,6 @@ const Sidebar = () => {
           <Link to='/' className="logo-link" onClick={() => setShowNav(false)}>
           <img className='signature-logo' src={LogoS} alt='logo'/>
           </Link>
-          {/* <NavLink 
-            exact="true"
-            activeclassname="active"
-            to="/"
-            onClick={() => setShowNav(false)}>Home</NavLink> */}
           <NavLink 
             activeclassname="active"
             className="about-link"
