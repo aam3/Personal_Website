@@ -62,11 +62,13 @@
 
   .container.about-page, .container.publications-page, .container.resume-page {
 
+    top: 10%;
+
     .text-zone {
 
       position: absolute;
       float: center;
-      top: 15%;
+      top: 10%;
       left: 50%;
       transform: translateX(-50%);
       width: 80%;
