@@ -18,7 +18,6 @@
 
       img {
         position: absolute;
-        z-index: 1;
         display: inline;
         width: 130px;
         margin-top: -23px;
@@ -34,7 +33,6 @@
         position: relative;
         text-decoration: none;
         padding: 40px;
-        z-index: 1;
   
         i {
           transition: all 0.3s ease-out;
