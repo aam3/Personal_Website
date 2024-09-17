@@ -182,6 +182,7 @@
           right: 15px;
           font-size: 36px;
           cursor: pointer;
+          color: #d6d5d5;
         }
 
       }
@@ -189,6 +190,7 @@
       }
 
       .hamburger-icon {
+        position: fixed;
         display: block;
         top: 15px;
         right: 15px;
