@@ -121,7 +121,7 @@
       align-items: center;
       // height: 100vh;
       height: 100%;
-      position: fixed;
+      // position: fixed;
       top: 0;
       left: 0;
       width: 100%;
@@ -186,14 +186,15 @@
         }
 
       }
-        
-      }
 
       .hamburger-icon {
         display: block;
         top: 15px;
         right: 15px;
       }
+        
+      }
+
 
 
       body.mobile-menu-open {
