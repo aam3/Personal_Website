@@ -149,6 +149,7 @@
           align-items: center;
           height: 100%;
           justify-content: center;
+          z-index: 1002;
 
         .logo-link {
           display: flex;
@@ -182,7 +183,6 @@
           right: 15px;
           font-size: 36px;
           cursor: pointer;
-          z-index: 1002;
         }
 
       }
