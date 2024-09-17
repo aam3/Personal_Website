@@ -119,12 +119,12 @@
       display: flex;
       justify-content: left;
       align-items: center;
-      // height: 100vh;
       height: 100%;
       position: fixed;
       top: 0;
       left: 0;
       width: 100%;
+      z-index: 1000;
 
       nav {
         background: #181818;
@@ -134,7 +134,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        z-index: 1000;
+        z-index: 1001;
         
         // transform: translateX(-100%);
         // transition: left 0.5s ease-in-out;
@@ -149,7 +149,6 @@
           align-items: center;
           height: 100%;
           justify-content: center;
-          // z-index: 1000;
 
         .logo-link {
           display: flex;
@@ -198,6 +197,8 @@
 
 
       body.mobile-menu-open {
+        position: fixed;
+        width: 100%;
         overflow: hidden;
       }
     }

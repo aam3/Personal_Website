@@ -74,7 +74,11 @@
 
   .container.about-page, .container.publications-page, .container.resume-page {
 
+    z-index: 1;
+
     .text-zone {
+
+      z-index: 2;
 
       position: absolute;
       float: center;
