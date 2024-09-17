@@ -182,7 +182,7 @@
           right: 15px;
           font-size: 36px;
           cursor: pointer;
-          color: #d6d5d5;
+          z-index: 1002;
         }
 
       }
@@ -196,11 +196,6 @@
         right: 15px;
       }
 
-      body.mobile-menu-open {
-        position: fixed;
-        width: 100%;
-        overflow: hidden;
-      }
     }
    
   }
