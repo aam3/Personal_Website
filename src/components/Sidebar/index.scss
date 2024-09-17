@@ -135,7 +135,13 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        z-index: 1001;    
+        z-index: 1001;
+        transform: translateX(-100%);
+        transition: left 0.5s ease-in-out;
+        
+        &.mobile-show {
+          transform: translateX(0);
+        }        
 
         .nav-content {
           display: flex;
