@@ -134,14 +134,16 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        z-index: 2;      
+        z-index: 2;
+        display: none;  
         
         // transform: translateX(-100%);
         // transition: left 0.5s ease-in-out;
         
         &.mobile-show {
-          transform: translateX(0);
-        }        
+          // transform: translateX(0);
+          display: block;
+        }   
 
         .nav-content {
           display: flex;
