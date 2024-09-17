@@ -148,7 +148,7 @@
           display: flex;
           flex-direction: column;
           align-items: center;
-          height: 80%;
+          height: 100%;
           justify-content: center;
 
         .logo-link {
@@ -176,16 +176,17 @@
           margin-bottom: 10px;
         }
 
-        .close-icon {
-          display: block !important;
-          position: absolute;
-          top: 35px;
-          right: 15px;
-          font-size: 36px;
-          cursor: pointer;
-        }
-
       }
+
+
+      .close-icon {
+        display: block !important;
+        position: absolute;
+        top: 35px;
+        right: 15px;
+        font-size: 36px;
+        cursor: pointer;
+      }      
         
       }
 
