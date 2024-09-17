@@ -106,7 +106,6 @@
     cursor: pointer;     // Added
     font-size: 24px;     // Added
     color: #181818;        // Added  
-    z-index: 10;  
   }
 
   .close-icon {
@@ -134,7 +133,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        z-index: 1000;
+        z-index: 2;
         transform: translateX(-100%);
         transition: left 0.5s ease-in-out;
         
