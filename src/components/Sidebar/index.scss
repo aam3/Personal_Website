@@ -124,7 +124,6 @@
       top: 0;
       left: 0;
       width: 100%;
-      z-index: 2;
 
       nav {
         background: #181818;
@@ -135,14 +134,12 @@
         justify-content: center;
         align-items: center;
         z-index: 2;
-        display: none;  
         
-        // transform: translateX(-100%);
-        // transition: left 0.5s ease-in-out;
+        transform: translateX(-100%);
+        transition: left 0.5s ease-in-out;
         
         &.mobile-show {
-          // transform: translateX(0);
-          display: block;
+          transform: translateX(0);
         }   
 
         .nav-content {
