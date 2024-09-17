@@ -98,18 +98,18 @@
   
   }
   
-  .hamburger-icon, .close-icon {
+  .hamburger-icon {
     display: none;
     position: fixed;  // Added
-    right: 15px;         // Added
-    top: 15px;           // Added
-    cursor: pointer;     // Added
     font-size: 24px;     // Added
     color: #181818;        // Added  
   }
 
   .close-icon {
-    color: #d6d5d5;
+    display: none;
+    position: fixed;  // Added
+    font-size: 24px;     // Added
+    color: #d6d5d5;        // Added  
   }
   
   
