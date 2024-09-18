@@ -4,6 +4,7 @@ import './index.scss'
 import { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
+  faClose,
   faBars
 } from '@fortawesome/free-solid-svg-icons'
 
@@ -22,6 +23,12 @@ const Layout = () => {
           color="#ffd700"
           size="3x"
           className='hamburger-icon' />
+      <FontAwesomeIcon 
+          onClick={() => setShowNav(false)}
+          icon={faClose}
+          color="#d6d5d5"
+          size="3x"
+          className='close-icon' />      
       <div className="page">
         <Outlet />
       </div>

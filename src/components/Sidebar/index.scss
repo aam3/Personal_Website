@@ -98,13 +98,6 @@
   
   }
   
-
-  .close-icon {
-    display: none;
-    position: fixed;  // Added
-    font-size: 24px;     // Added
-    color: #d6d5d5;        // Added  
-  }
   
   
   @media screen and (max-width: 1200px) {
@@ -117,7 +110,7 @@
       position: fixed;
       top: 0;
       left: 0;
-      width: 75%;
+      width: 100%;
       z-index: 3;
 
       nav {
@@ -168,18 +161,7 @@
           margin-bottom: 10px;
         }
 
-      }
-
-
-      .close-icon {
-        display: block;
-        position: absolute;
-        top: 15px;
-        right: 15px;
-        font-size: 36px;
-        cursor: pointer;
-        z-index: 4;
-      }      
+      }    
         
       }
     }
