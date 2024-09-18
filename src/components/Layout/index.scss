@@ -87,13 +87,17 @@
     top: 20px;
     right: 20px;
     z-index: 2;
+
+    &.mobile-show {
+      display: none;
+    }
   }
 
   .close-icon {
     display: none;
     position: absolute;
-    top: 35px;
-    right: 35px;
+    top: 20px;
+    right: 20px;
     font-size: 36px;
     cursor: pointer;
 

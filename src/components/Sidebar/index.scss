@@ -104,13 +104,13 @@
     .nav-bar {
       background: #181818;
       display: flex;
-      justify-content: center;
+      justify-content: left;
       align-items: center;
       height: 100%;
       position: fixed;
       // top: 0;
       // left: 0;
-      width: 100%;
+      width: 80%;
       z-index: 3;
 
       nav {
