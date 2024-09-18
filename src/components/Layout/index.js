@@ -22,13 +22,13 @@ const Layout = () => {
           icon={faBars}
           color="#ffd700"
           size="3x"
-          className='hamburger-icon' />
+          className={`hamburger-icon ${showNav ? 'mobile-show' : ''}`} />
       <FontAwesomeIcon 
           onClick={() => setShowNav(false)}
           icon={faClose}
           color="#d6d5d5"
           size="3x"
-          className='close-icon' />      
+          className={`close-icon ${showNav ? 'mobile-show' : ''}`} />      
       <div className="page">
         <Outlet />
       </div>
