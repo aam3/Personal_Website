@@ -98,17 +98,12 @@
   
   }
   
-  .hamburger-icon-div {
 
-    position: fixed;  // Added
-
-    .hamburger-icon {
-      display: none;
-      font-size: 24px;     // Added
-      color: #181818;        // Added  
-    }
-
-}
+  .hamburger-icon {
+    display: none;
+    font-size: 24px;     // Added
+    color: #181818;        // Added  
+  }
 
   .close-icon {
     display: none;
@@ -129,7 +124,7 @@
       top: 0;
       left: 0;
       width: 75%;
-      // z-index: 1000;
+      z-index: 1000;
 
       nav {
         background: #181818;
@@ -194,15 +189,13 @@
       }      
         
       }
-
-    }
-
-    .hamburger-icon {
-      position: fixed;
-      display: block;
-      top: 20px;
-      right: 20px;
-      z-index: 1003;
+      .hamburger-icon {
+        position: fixed;
+        display: block;
+        top: 20px;
+        right: 20px;
+        z-index: 1003;
+      }
     }
    
   }
