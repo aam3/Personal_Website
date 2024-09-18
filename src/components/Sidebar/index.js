@@ -4,7 +4,7 @@ import { useState } from 'react'
 // import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
-  faBars,
+  // faBars,
   faClose,
 } from '@fortawesome/free-solid-svg-icons'
 import { Link, NavLink } from 'react-router-dom'
@@ -14,8 +14,8 @@ const Sidebar = () => {
   const [showNav, setShowNav] = useState(false);
 
   return (
-    <div className="nav-bar">
-      <nav className={`${showNav ? 'mobile-show' : ''}`}>
+    <div className={`nav-bar ${showNav ? 'mobile-show' : ''}`}>
+      <nav>
         <div className="nav-content">
           <Link to='/' className="logo-link" onClick={() => setShowNav(false)}>
           <img className='signature-logo' src={LogoS} alt='logo'/>
@@ -43,12 +43,6 @@ const Sidebar = () => {
             size="3x"
             className='close-icon' />             
       </nav>
-      <FontAwesomeIcon 
-          onClick={() => setShowNav(true)}
-          icon={faBars}
-          color="#ffd700"
-          size="3x"
-          className='hamburger-icon' /> 
     </div>
   )
 }
