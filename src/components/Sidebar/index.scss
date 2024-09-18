@@ -98,12 +98,17 @@
   
   }
   
-  .hamburger-icon {
-    display: none;
+  .hamburger-icon-div {
+
     position: fixed;  // Added
-    font-size: 24px;     // Added
-    color: #181818;        // Added  
-  }
+
+    .hamburger-icon {
+      display: none;
+      font-size: 24px;     // Added
+      color: #181818;        // Added  
+    }
+
+}
 
   .close-icon {
     display: none;
