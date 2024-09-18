@@ -15,7 +15,7 @@ const Layout = () => {
     <div className="App">
       <div className={`sidebar-div ${showNav ? 'mobile-show' : ''}`}>
         <Sidebar />
-      </div>
+      </div>      
       <FontAwesomeIcon 
           onClick={() => setShowNav(true)}
           icon={faBars}

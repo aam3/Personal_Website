@@ -11,33 +11,33 @@ import { Link, NavLink } from 'react-router-dom'
 import LogoS from '../../assets/images/Logo.svg'
 
 const Sidebar = () => {
-  const [showNav, setShowNav] = useState(false);
+  const [showNav2, setshowNav2] = useState(false);
 
   return (
-    <div className={`nav-bar ${showNav ? 'mobile-show' : ''}`}>
+    <div className={`nav-bar ${showNav2 ? 'mobile-show' : ''}`}>
       <nav>
         <div className="nav-content">
-          <Link to='/' className="logo-link" onClick={() => setShowNav(false)}>
+          <Link to='/' className="logo-link" onClick={() => setshowNav2(false)}>
           <img className='signature-logo' src={LogoS} alt='logo'/>
           </Link>
           <NavLink 
             activeclassname="active"
             className="about-link"
             to="/about"
-            onClick={() => setTimeout(() => setShowNav(false), 100)}>About</NavLink>
+            onClick={() => setTimeout(() => setshowNav2(false), 100)}>About</NavLink>
           <NavLink
             activeclassname="active"
             className="publications-link"
             to="/publications"
-            onClick={() => setShowNav(false)}>Publications</NavLink>
+            onClick={() => setshowNav2(false)}>Publications</NavLink>
           <NavLink
             activeclassname="active"
             className="resume-link"
             to="/resume"
-            onClick={() => setShowNav(false)}>Resume</NavLink>       
+            onClick={() => setshowNav2(false)}>Resume</NavLink>       
         </div>
         <FontAwesomeIcon 
-            onClick={() => setShowNav(false)}
+            onClick={() => setshowNav2(false)}
             icon={faClose}
             color="#d6d5d5"
             size="3x"
