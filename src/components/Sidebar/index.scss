@@ -129,7 +129,7 @@
       top: 0;
       left: 0;
       width: 75%;
-      // z-index: 1000;
+      z-index: 1000;
 
       nav {
         background: #181818;
@@ -142,12 +142,12 @@
         z-index: 1001;
         left: 0;
 
-        transform: translateX(-100%);
-        transition: left 0.5s ease-in-out;
+        // transform: translateX(-100%);
+        // transition: left 0.5s ease-in-out;
         
-        &.mobile-show {
-          transform: translateX(0);
-        }
+        // &.mobile-show {
+        //   transform: translateX(0);
+        // }
 
         .nav-content {
           display: flex;
@@ -200,9 +200,9 @@
     .hamburger-icon-div {
       position: fixed;
       display: block;
-      top: 100px;
-      right: 100px;
-      z-index: 1000
-    }    
+      top: 20px;
+      right: 20px;
+      z-index: 1001
+    }
    
   }
