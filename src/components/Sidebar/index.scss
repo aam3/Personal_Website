@@ -118,6 +118,7 @@
       top: 0;
       left: 0;
       width: 75%;
+      z-index: 3;
 
       nav {
         background: #181818;
@@ -127,7 +128,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        z-index: 1002;
 
         // transform: translateX(-100%);
         // transition: left 0.5s ease-in-out;
