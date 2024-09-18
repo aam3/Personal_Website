@@ -82,13 +82,13 @@
     right: 20px;
   }
 
-  // .sidebar-div {
-  //   display: none;
+  .sidebar-div {
+    display: none;
         
-  //   &.mobile-show {
-  //     display: block;
-  //   }
-  // }
+    &.mobile-show {
+      display: block;
+    }
+  }
 
   .container.about-page, .container.publications-page, .container.resume-page {
 
