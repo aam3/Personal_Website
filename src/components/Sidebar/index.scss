@@ -119,16 +119,12 @@
       display: flex;
       justify-content: left;
       align-items: center;
-      height: 20%;
+      height: 110%;
       position: fixed;
       top: 0;
       left: 0;
       width: 75%;
       z-index: 1000;
-
-      &.mobile-show {
-        height: 110%;
-      }
 
       nav {
         background: #181818;
@@ -138,7 +134,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        z-index: 1001;
+        z-index: 1002;
 
         transform: translateX(-100%);
         transition: left 0.5s ease-in-out;
