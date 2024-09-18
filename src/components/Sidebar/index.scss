@@ -137,12 +137,12 @@
         z-index: 1001;
         left: 0;
 
-        // transform: translateX(-100%);
-        // transition: left 0.5s ease-in-out;
+        transform: translateX(-100%);
+        transition: left 0.5s ease-in-out;
         
-        // &.mobile-show {
-        //   transform: translateX(0);
-        // }
+        &.mobile-show {
+          transform: translateX(0);
+        }
 
         .nav-content {
           display: flex;
