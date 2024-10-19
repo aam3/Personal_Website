@@ -63,6 +63,10 @@
       fill: white;
     }
 
+    .navbar-toggler-icon {
+      background-image: "../../assets/images/icons8-menu.svg";
+    }
+
     .nav-content {
       position: static; // Reset the absolute positioning
       left: auto;
