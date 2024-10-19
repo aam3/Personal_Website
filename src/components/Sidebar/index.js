@@ -12,7 +12,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const Sidebar = () => {
   return (
     <>
-    <Navbar expand="lg" className="custom-navbar" bg="dark" fixed="top" collapseOnSelect="true">
+    <Navbar expand="lg" className="custom-navbar" bg="light" fixed="top" collapseOnSelect="true">
       {/* <Container > */}
         <Navbar.Brand href="/"><img className='signature-logo' src={LogoS} alt='logo'/></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
