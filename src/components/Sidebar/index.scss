@@ -41,6 +41,8 @@
 @media (max-width: 990px) {
   .custom-navbar {
     padding: 0 15px; // Add some horizontal padding
+    border-bottom-color: #f1f0ee;
+    border-bottom-width: 1px;
 
     .navbar-brand {
       margin-top: 0; // Reset the margin
