@@ -62,11 +62,11 @@
       z-index: 1001; // Ensure it's above other elements
     }
 
-    // .navbar-toggler-icon {
-    //   background: rgb(54, 54, 54);
-    //   filter: invert(100%);
-    //   border-color: rgb(54, 54, 54);
-    // }
+    .navbar-toggler-icon {
+      // background: rgb(54, 54, 54);
+      filter: invert(100%);
+      // border-color: rgb(54, 54, 54);
+    }
 
     .nav-content {
       position: static; // Reset the absolute positioning
