@@ -69,10 +69,12 @@
 
     .nav-content {
       border: 2px solid red;
-      justify-content: center;
       position: static; // Reset the absolute positioning
       left: auto;
       width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center; // Center items horizontally
     }
 
     .navbar-collapse {
