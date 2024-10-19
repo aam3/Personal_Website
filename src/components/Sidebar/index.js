@@ -17,7 +17,7 @@ const Sidebar = () => {
         <Navbar.Brand href="/"><img className='signature-logo' src={LogoS} alt='logo'/></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="nav-content d-flex" bg="dark">
+          <Nav className="nav-content d-flex bg-dark" >
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
             <Nav.Link href="/publications">Publications</Nav.Link>
