@@ -60,15 +60,13 @@
       margin: 0;
       padding: 0.25rem;
       z-index: 1001; // Ensure it's above other elements
-      fill: white;
     }
 
     .navbar-toggler-icon {
-      background-image: "../../assets/images/icons8-menu.svg";
+      background: white;
     }
 
     .nav-content {
-      border: 2px solid red;
       position: static; // Reset the absolute positioning
       left: auto;
       width: 100%;
