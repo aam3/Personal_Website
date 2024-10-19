@@ -68,13 +68,13 @@
     }
 
     .nav-content {
+      border: 2px solid red;
       position: static; // Reset the absolute positioning
       left: auto;
       width: 100%;
     }
 
     .navbar-collapse {
-      align-items: center;
       position: absolute;
       top: 70px; // Height of the navbar
       left: 0;
