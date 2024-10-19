@@ -41,7 +41,6 @@
 @media (max-width: 990px) {
   .custom-navbar {
     padding: 0 15px; // Add some horizontal padding
-    border: 2px solid red;
 
     .navbar-brand {
       margin-top: 0; // Reset the margin
@@ -63,9 +62,7 @@
     }
 
     .navbar-toggler-icon {
-      // background: rgb(54, 54, 54);
       filter: invert(100%);
-      // border-color: rgb(54, 54, 54);
     }
 
     .nav-content {
@@ -82,7 +79,7 @@
       top: 70px; // Height of the navbar
       left: 0;
       right: 0;
-      background-color: #434343; // Match the navbar background color
+      // background-color: #434343; // Match the navbar background color
       z-index: 1000;
     }
 
