@@ -1,165 +1,51 @@
-.nav-bar {
-    background: #181818;
-    width: 100%;
-    height: 70px;
-    position: relative;
-    top: 0;
-  
-    nav {
-      float: left;
-      text-align: center;
-      vertical-align: middle;
-      position: relative;
-      height: 60px;
-      margin-top: 27px;
-      width: 100%;
+/* Custom Navbar Styles */
+
+.custom-navbar {
+  height: 70px;
+  display: flex;
+
+  .nav-content {
+
+    position: absolute;
+    left: 32%;
+
+    .nav-link {
+    
       font-family: 'Isabella Sans light';
-      transform: translateX(2%);
-
-      img {
-        position: absolute;
-        display: inline;
-        width: 130px;
-        margin-top: -23px;
-        margin-left: -120px;
-      }
-  
-      a {
-        font-size: 19px;
-        color: #9a9898;
-        display: inline;
-        line-height: 20px;
-        height: 20px;
-        position: relative;
-        text-decoration: none;
-        padding: 40px;
-  
-        i {
-          transition: all 0.3s ease-out;
-        }
-  
-        &:hover {
-          color: #cfc8c8;
-  
-          svg {
-            opacity: 0;
-          }
-  
-          &:after {
-            opacity: 0;
-          }
-        }
-  
-        &:after {
-          content: '';
-          font-size: 25px;
-          letter-spacing: 2px;
-          position: absolute;
-          bottom: 0;
-          display: inline;
-          width: 100%;
-          text-align: center;
-          opacity: 0;
-          -webkit-transition: all 0.3s ease-out;
-          transition: all 0.3s ease-out;
-        }
-  
-        &:first-child {
-          &:after {
-            content: 'HOME';
-          }
-        }
-      }
-  
-      a.about-link {
-        &:after {
-          content: 'ABOUT';
-        }
-      }
-  
-      a.contact-link {
-        &:after {
-          content: 'PUBLICATIONS';
-        }
-      }
-  
-      a.portfolio-link {
-        &:after {
-          content: 'RESUME';
-        }
-      }
-  
-      a.active {
-        svg {
-          color: #cfc8c8;
-        }
-      }
+      font-size: 19px;
+      color: #9e9c9c;
+      transition: color 0.3s ease;
+      margin: 0 3rem;
+    
     }
-  
-  }
-  
-  
-  
-  @media screen and (max-width: 1200px) {
-    .nav-bar {
-      background: transparent;
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      height: 110%;
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 70%;
-      z-index: 3;
+    
 
-      nav {
-        background: #181818;
-        opacity: 0.95;
-        margin-left: -10px;
-        width: 100%;
-        height: 110%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        .nav-content {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          height: 100%;
-          justify-content: center;
-          margin-top: -80px;
-
-        .logo-link {
-          display: flex;
-          justify-content: center;
-          width: 100%;
-          align-items: center;
-  
-          img {
-            width: 130px;
-            max-width: 100%;
-            height: auto;
-            margin-left: 0px;
-            margin-bottom: -100px;
-          }
-        }
-  
-        a {
-          font-size: 24px;
-          color: #9a9898;
-          text-decoration: none;
-          padding: 15px 0;
-          width: 100%;
-          text-align: center;
-          margin-bottom: 10px;
-        }
-
-      }    
-        
-      }
+    .nav-link:hover {
+      color: #434343;
     }
-   
+
+}
+
+  img {
+    align-self: flex-start;
+    width: 130px;
+    margin-top: 120px;
   }
+
+}
+
+
+/* Mobile styles */
+@media (max-width: 991px) {
+  .custom-navbar .navbar-collapse {
+    margin-top: 0.5rem;
+  }
+
+  .custom-navbar .navbar-nav {
+    align-items: flex-start;
+  }
+
+  .custom-navbar .nav-link {
+    padding: 0.5rem 0;
+  }
+}

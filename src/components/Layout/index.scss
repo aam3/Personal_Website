@@ -2,6 +2,9 @@
     width: 100%;
     height: 100%;
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .top-tags {
@@ -23,15 +26,16 @@
     margin-left: -20px;
   }
   
-  .container {
+  .container.home-page, .container.about-page, .container.publications-page, .container.resume-page {
     width: 100%;
+    position: absolute;
     will-change: contents;
     height: 80%;
     min-height: 500px;
-    position: absolute;
     opacity: 1;
-    top: 5%;
-    margin: 0 auto;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     z-index: 1;
     transform-style: preserve-3d;
   }
@@ -42,21 +46,20 @@
     top: 10%;
     left: 50%;
     transform: translateX(-50%);
-    width: 60%;
+    width: 70%;
     vertical-align: middle;
     display: table-cell;
-    max-height: 50%;
   }  
 
-.hamburger-icon {
-  display: none;
-  position: fixed;  // Added
-  right: 15px;         // Added
-  top: 15px;           // Added
-  cursor: pointer;     // Added
-  font-size: 24px;     // Added
-  color: #181818;         // Added
-} 
+// .hamburger-icon {
+//   display: none;
+//   position: fixed;  // Added
+//   right: 15px;         // Added
+//   top: 15px;           // Added
+//   cursor: pointer;     // Added
+//   font-size: 24px;     // Added
+//   color: #181818;         // Added
+// } 
   
 .footer {
   color: #767575;
@@ -67,99 +70,99 @@
   font-style: italic;
 }
 
-.hamburger-icon {
-  display: none;
-  font-size: 24px;     // Added
-  color: #181818;        // Added  
-}
+// .hamburger-icon {
+//   display: none;
+//   font-size: 24px;     // Added
+//   color: #181818;        // Added  
+// }
 
-.close-icon {
-  display: none;
-  font-size: 24px;     // Added
-  color: #181818;        // Added  
-}
+// .close-icon {
+//   display: none;
+//   font-size: 24px;     // Added
+//   color: #181818;        // Added  
+// }
 
-@media screen and (max-width: 768px) {
+// @media screen and (max-width: 768px) {
 
-  .hamburger-icon {
-    position: fixed;
-    display: block;
-    top: 20px;
-    right: 20px;
-    z-index: 2;
+//   .hamburger-icon {
+//     position: fixed;
+//     display: block;
+//     top: 20px;
+//     right: 20px;
+//     z-index: 2;
 
-    &.mobile-show {
-      display: none;
-    }
-  }
+//     &.mobile-show {
+//       display: none;
+//     }
+//   }
 
-  .close-icon {
-    display: none;
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    cursor: pointer;
+//   .close-icon {
+//     display: none;
+//     position: fixed;
+//     top: 20px;
+//     right: 20px;
+//     cursor: pointer;
 
-    &.mobile-show {
-      display: block;
-      z-index: 1000;
-    }
-  }
+//     &.mobile-show {
+//       display: block;
+//       z-index: 1000;
+//     }
+//   }
 
-  .sidebar-div {
-    display: none;
+//   .sidebar-div {
+//     display: none;
         
-    &.mobile-show {
-      display: block;
-    }
-  }
+//     &.mobile-show {
+//       display: block;
+//     }
+//   }
 
-  .container.about-page, .container.publications-page, .container.resume-page {
+//   .container.about-page, .container.publications-page, .container.resume-page {
 
-    .text-zone {
+//     .text-zone {
 
-      height: auto;
-      position: absolute;
-      float: center;
-      top: 10%;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 80%;
-      vertical-align: middle;
-      display: table-cell;
+//       height: auto;
+//       position: absolute;
+//       float: center;
+//       top: 10%;
+//       left: 50%;
+//       transform: translateX(-50%);
+//       width: 80%;
+//       vertical-align: middle;
+//       display: table-cell;
 
-      img {
-        width: 50%;
-        margin: 0 0 0 10px;
-        display: inline;
-      }
+//       img {
+//         width: 50%;
+//         margin: 0 0 0 10px;
+//         display: inline;
+//       }
 
-      p {
-        display: inline;
-      }
+//       p {
+//         display: inline;
+//       }
 
-      h1 {
-        font-size: 40px;
-        margin-bottom: 20px;
+//       h1 {
+//         font-size: 40px;
+//         margin-bottom: 20px;
 
-        &:before,
-        &:after {
-          font-size: 14px;
-        }
-      }
+//         &:before,
+//         &:after {
+//           font-size: 14px;
+//         }
+//       }
 
-      ul {
-        li {
-          font-size: 13px;
-        }
-      }
-    }
-  }
+//       ul {
+//         li {
+//           font-size: 13px;
+//         }
+//       }
+//     }
+//   }
 
-  body.mobile-menu-open {
-    position: fixed;
-    width: 100%;
-    overflow: hidden;
-  }
+//   body.mobile-menu-open {
+//     position: fixed;
+//     width: 100%;
+//     overflow: hidden;
+//   }
 
-}
+// }
