@@ -63,7 +63,8 @@
     }
 
     .navbar-toggler-icon {
-      background: white;
+      background: rgb(62, 62, 62);
+      filter: invert(100%);
     }
 
     .nav-content {
