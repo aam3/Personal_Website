@@ -4,6 +4,7 @@
   height: 70px;
   display: flex;
   align-items: center; // This will vertically center the content
+  
 
   .nav-content {
 
@@ -40,6 +41,7 @@
 @media (max-width: 800px) {
   .custom-navbar {
     padding: 0 15px; // Add some horizontal padding
+    border: 2px solid red;
 
     .navbar-brand {
       margin-top: 0; // Reset the margin
