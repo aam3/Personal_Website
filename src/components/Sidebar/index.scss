@@ -53,9 +53,13 @@
     }
 
     .navbar-toggler {
-      margin-top: 0; // Ensure the hamburger icon is vertically centered
-      padding: -1rem 0.5rem; // Adjust padding to fit within the navbar
-      z-index: 1001;
+      position: absolute;
+      top: 50%;
+      right: 15px;
+      transform: translateY(-50%);
+      margin: 0;
+      padding: 0.25rem;
+      z-index: 1001; // Ensure it's above other elements
     }
 
     .nav-content {
