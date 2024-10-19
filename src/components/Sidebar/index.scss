@@ -38,7 +38,7 @@
 
 
 /* Mobile styles */
-@media (max-width: 800px) {
+@media (max-width: 990px) {
   .custom-navbar {
     padding: 0 15px; // Add some horizontal padding
     border: 2px solid red;
@@ -63,7 +63,7 @@
     }
 
     .navbar-toggler-icon {
-      background: rgb(62, 62, 62);
+      background: rgb(0, 0, 0);
       filter: invert(100%);
     }
 
