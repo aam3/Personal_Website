@@ -3,6 +3,7 @@
 .custom-navbar {
   height: 70px;
   display: flex;
+  align-items: center; // This will vertically center the content
 
   .nav-content {
 
@@ -38,33 +39,39 @@
 /* Mobile styles */
 @media (max-width: 800px) {
   .custom-navbar {
-    padding: 0;
-    flex-wrap: nowrap;
-  }
+    padding: 0 15px; // Add some horizontal padding
 
-  .custom-navbar .navbar-brand {
-    padding: 0.5rem 1rem;
-  }
+    .navbar-brand {
+      margin-top: 0; // Reset the margin
 
-  .custom-navbar .navbar-toggler {
-    margin-right: 1rem;
-  }
+      img {
+        width: 100px; // Slightly smaller logo for mobile
+        margin-top: 0; // Reset the margin
+      }
+    }
 
-  .custom-navbar .navbar-collapse {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    background-color: #343a40;
-    padding: 1rem;
-    z-index: 1000;
-  }
+    .navbar-toggler {
+      margin-top: 0; // Ensure the hamburger icon is vertically centered
+    }
 
-  .custom-navbar .navbar-nav {
-    align-items: flex-start;
-  }
+    .nav-content {
+      position: static; // Reset the absolute positioning
+      left: auto;
+      width: 100%;
+    }
 
-  .custom-navbar .nav-link {
-    padding: 0.5rem 0;
+    .navbar-collapse {
+      position: absolute;
+      top: 70px; // Height of the navbar
+      left: 0;
+      right: 0;
+      background-color: #343a40; // Match the navbar background color
+      z-index: 1000;
+    }
+
+    .nav-link {
+      margin: 0.5rem 0;
+      padding: 0.5rem 15px;
+    }
   }
 }
