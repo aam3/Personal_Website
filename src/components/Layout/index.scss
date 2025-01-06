@@ -1,25 +1,52 @@
 .App {
   display: flex;
   height: 100vh;
+  overflow: hidden;
+  width: 100vw;
 }
 
 .main-content {
   flex: 1;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  height: 100vh;
   position: relative;
+  overflow: hidden;
 }
 
 .page {
   flex: 1;
   width: 100%;
-  background: url('../../assets/images/DallE_bw_network_high_res-cropped2.png') no-repeat center center fixed; 
-  background-size: cover;    
+  position: relative;
   overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 45px;
+
+  &::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('../../assets/images/DallE_bw_network_high_res-cropped2.png') no-repeat center center fixed;
+    background-size: cover;
+    z-index: 0;
+  }
+}
+
+.page-content {
+  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  padding: 2rem 0;
+  position: relative;
+  z-index: 1;
 }
 
 .top-tags {
@@ -66,22 +93,6 @@
   display: table-cell;
 }  
 
-
-.footer {
-  width: 100%;
-  background: #444345;
-  box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25);
-  padding: 15px 0;
-  text-align: center;
-  z-index: 999;
-
-  p {
-    margin: 0;
-    color: #fff;
-    font-family: 'Isabella Sans', cursive;
-    font-size: 14px;
-  }
-}
 
 // .hamburger-icon {
 //   display: none;
