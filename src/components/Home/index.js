@@ -7,6 +7,9 @@ import {
 
 const Home = () => {
 
+    console.log('Background image path:', backgroundImage);
+
+
     return (
         <div className='container home-page'>
             {/* <img src={ProfilePic} alt="Picture of Alisabeth"/> */}
