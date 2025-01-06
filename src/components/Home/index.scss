@@ -1,10 +1,28 @@
 .home-page {
+ 
+    width: 100%;
+    aspect-ratio: 1.27;
+    background-image: url('../../assets/images/DallE_bw_network_high_res.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+
+    .content {
+      width: 1000px;
+      height: 798px;
+      flex-shrink: 0;
+    }
 
     .text-zone {
-      position: absolute;
-      text-align: center;
-      width: 80%;
-      top: 5%;
+      // position: absolute;
+      // text-align: center;
+      // width: 80%;
+      // top: 5%;
+      width: 826px;
+      height: 325px;
+      flex-shrink: 0; 
     }
 
 
