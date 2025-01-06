@@ -13,10 +13,19 @@ const Layout = () => {
   return (
     <div className="App">
       <Sidebar />
-      <div className='footer'></div>
       <div className="page">
         <Outlet />
       </div>
+      <footer className="footer">
+        <div className="footer-content">
+          <p>&copy; 2025 Your Website. All rights reserved.</p>
+          <div className="footer-links">
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Privacy Policy</a>
+          </div>
+        </div>
+      </footer>      
     </div>
   )
 }

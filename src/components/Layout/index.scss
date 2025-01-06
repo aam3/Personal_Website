@@ -1,6 +1,6 @@
 .page {
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     background: url('../../assets/images/DallE_bw_network_high_res-cropped2.png') no-repeat center center fixed; 
     background-size: cover;    
     overflow-y: scroll;
@@ -54,26 +54,57 @@
     display: table-cell;
   }  
 
-// .hamburger-icon {
-//   display: none;
-//   position: fixed;  // Added
-//   right: 15px;         // Added
-//   top: 15px;           // Added
-//   cursor: pointer;     // Added
-//   font-size: 24px;     // Added
-//   color: #181818;         // Added
-// } 
-  
+// // Layout.css
+// .layout {
+//   min-height: 100vh;
+//   display: flex;
+//   flex-direction: column;
+// }
+
+// .content {
+//   flex: 1;
+// }
+
 .footer {
   background: #444345;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  width: 1440px;
-  height: 179px;
-  flex-shrink: 0;  
-  // position: fixed;
-  bottom: 0;
-  // font-style: italic;
+  color: white;
+  padding: 1rem 1.5rem;
+  margin-top: auto;
 }
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #d1d5db;
+}
+  
+
+
+// .footer {
+//   background: #444345;
+//   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+//   width: 1440px;
+//   height: 179px;
+//   flex-shrink: 0;  
+//   // position: fixed;
+//   bottom: 0;
+//   // font-style: italic;
+// }
 
 // .hamburger-icon {
 //   display: none;
