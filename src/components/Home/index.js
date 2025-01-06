@@ -4,47 +4,61 @@ import {
   faLinkedin,
   faGithub,
 } from '@fortawesome/free-brands-svg-icons'
+import BG_image from '../../assets/images/DallE_bw_network_high_res.png'
 
 const Home = () => {
 
+    // Style object for the container with background image
+    const containerStyle = {
+        width: '100%',
+        aspectRatio: '1.27',
+        backgroundImage: `url('../../assets/images/DallE_bw_network_high_res.png')`, // Replace with your image path
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        backgroundAttachment: 'fixed' // Optional: makes the background fixed while scrolling
+    };
+
     return (
-        <div className='container home-page'>
-            {/* <img src={ProfilePic} alt="Picture of Alisabeth"/> */}
-            <div className='text-zone'>
-                <h1>ALISABETH MARSTELLER</h1>
-                <h2>DATA SCIENTIST</h2>
-                <h3>Inferential Statistics / Statistical Modeling / Causal Inference</h3>
-                <h4>Python / R / SQL</h4>
+        <div style={containerStyle}>
+            <div className='container home-page'>
+                {/* <img src={ProfilePic} alt="Picture of Alisabeth"/> */}
+                <div className='text-zone'>
+                    <h1>ALISABETH MARSTELLER</h1>
+                    <h2>DATA SCIENTIST</h2>
+                    <h3>Inferential Statistics / Statistical Modeling / Causal Inference</h3>
+                    <h4>Python / R / SQL</h4>
 
-                <ul>
-                <li>
-                    <a
-                        href="https://www.linkedin.com/in/alisabeth-m-21273b117/"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <FontAwesomeIcon
-                        icon={faLinkedin}
-                        color="#4d4d4e"
-                        className="anchor-icon"
-                        />
-                    </a>
-                </li>
-                <li>
-                    <a
-                        href="https://github.com/aam3"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <FontAwesomeIcon
-                        icon={faGithub}
-                        color="#4d4d4e"
-                        className="anchor-icon"
-                        />
-                    </a>
-                </li>
-        </ul>
+                    <ul>
+                    <li>
+                        <a
+                            href="https://www.linkedin.com/in/alisabeth-m-21273b117/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <FontAwesomeIcon
+                            icon={faLinkedin}
+                            color="#4d4d4e"
+                            className="anchor-icon"
+                            />
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="https://github.com/aam3"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <FontAwesomeIcon
+                            icon={faGithub}
+                            color="#4d4d4e"
+                            className="anchor-icon"
+                            />
+                        </a>
+                    </li>
+            </ul>
 
+                </div>
             </div>
         </div>
     )
