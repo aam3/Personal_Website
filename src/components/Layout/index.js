@@ -18,11 +18,6 @@ const Layout = () => {
       </div>
         <div className="footer">
           <p>&copy; 2025 Your Website. All rights reserved.</p>
-          <div className="footer-links">
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-            <a href="#">Privacy Policy</a>
-          </div>
         </div>
     </div>
   )
