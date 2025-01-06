@@ -8,6 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 60px; // Add padding to prevent content from being hidden behind footer
   }
   
   .top-tags {
@@ -56,14 +57,22 @@
 
 
 .footer {
-  background: #444345;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  width: 100vw;
-  height: 100px;
-  flex-shrink: 0;  
-  // position: fixed;
+  position: fixed;
   bottom: 0;
-  // font-style: italic;
+  left: 0;
+  width: 100%;
+  background: #444345;
+  box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25);
+  padding: 15px 0;
+  text-align: center;
+  z-index: 999;
+
+  p {
+    margin: 0;
+    color: #fff;
+    font-family: 'Isabella Sans', cursive;
+    font-size: 14px;
+  }
 }
 
 // .hamburger-icon {
