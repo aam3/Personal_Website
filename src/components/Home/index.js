@@ -8,6 +8,7 @@ import BG_image from '../../assets/images/DallE_bw_network_high_res.png'
 
 const Home = () => {
 
+
     // Style object for the container with background image
     const containerStyle = {
         width: '100%',
