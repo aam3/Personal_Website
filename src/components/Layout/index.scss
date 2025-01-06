@@ -26,8 +26,8 @@
     margin-left: -20px;
   }
   
-.container.about-page, .container.publications-page, .container.resume-page {
-    width: 80%;
+  .container.home-page, .container.about-page, .container.publications-page, .container.resume-page {
+    width: 100%;
     position: absolute;
     will-change: contents;
     height: 80%;
