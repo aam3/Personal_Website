@@ -16,8 +16,7 @@ const Layout = () => {
       <div className="page">
         <Outlet />
       </div>
-      <footer className="footer">
-        <div className="footer-content">
+        <div className="footer">
           <p>&copy; 2025 Your Website. All rights reserved.</p>
           <div className="footer-links">
             <a href="#">About</a>
@@ -25,7 +24,6 @@ const Layout = () => {
             <a href="#">Privacy Policy</a>
           </div>
         </div>
-      </footer>      
     </div>
   )
 }

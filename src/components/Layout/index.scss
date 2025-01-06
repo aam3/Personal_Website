@@ -54,57 +54,17 @@
     display: table-cell;
   }  
 
-// // Layout.css
-// .layout {
-//   min-height: 100vh;
-//   display: flex;
-//   flex-direction: column;
-// }
-
-// .content {
-//   flex: 1;
-// }
 
 .footer {
   background: #444345;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  color: white;
-  padding: 1rem 1.5rem;
-  margin-top: auto;
+  width: 100vw;
+  height: 179px;
+  flex-shrink: 0;  
+  position: fixed;
+  bottom: 0;
+  // font-style: italic;
 }
-
-// .footer-content {
-//   max-width: 1200px;
-//   margin: 0 auto;
-// }
-
-// .footer-links {
-//   display: flex;
-//   gap: 1rem;
-//   margin-top: 0.5rem;
-// }
-
-// .footer-links a {
-//   color: white;
-//   text-decoration: none;
-// }
-
-// .footer-links a:hover {
-//   color: #d1d5db;
-// }
-  
-
-
-// .footer {
-//   background: #444345;
-//   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-//   width: 1440px;
-//   height: 179px;
-//   flex-shrink: 0;  
-//   // position: fixed;
-//   bottom: 0;
-//   // font-style: italic;
-// }
 
 // .hamburger-icon {
 //   display: none;
