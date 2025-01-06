@@ -1,60 +1,20 @@
 import './index.scss'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {
-  faLinkedin,
-  faGithub,
-} from '@fortawesome/free-brands-svg-icons'
-import backgroundImage from '../../assets/images/DallE_bw_network_high_res.png'
+import resumePDF from '../../assets/docs/AMarsteller_Resume_2024.pdf'
 
 const Home = () => {
-
-    console.log('Background image path:', backgroundImage);
-
-
     return (
         <div className='container home-page'>
-            {/* <img src={ProfilePic} alt="Picture of Alisabeth"/> */}
             <div className='content'>
                 <div className='text-zone'>
-                    <h1>ALISABETH MARSTELLER</h1>
+                    <h1>Alisabeth Marsteller</h1>
                     <h2>DATA SCIENTIST</h2>
                     <h3>Inferential Statistics / Statistical Modeling / Causal Inference</h3>
                     <h4>Python / R / SQL</h4>
-
-                    <ul>
-                    <li>
-                        <a
-                            href="https://www.linkedin.com/in/alisabeth-m-21273b117/"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            <FontAwesomeIcon
-                            icon={faLinkedin}
-                            color="#4d4d4e"
-                            className="anchor-icon"
-                            />
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="https://github.com/aam3"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            <FontAwesomeIcon
-                            icon={faGithub}
-                            color="#4d4d4e"
-                            className="anchor-icon"
-                            />
-                        </a>
-                    </li>
-            </ul>
-
+                    <a href={resumePDF} className="resume-button" target="_blank" rel="noopener noreferrer">Resumé</a>
                 </div>
-            </div>    
+            </div>
         </div>
     )
 }
-
 
 export default Home
