@@ -13,12 +13,14 @@ const Layout = () => {
   return (
     <div className="App">
       <Sidebar />
-      <div className="page">
-        <Outlet />
+      <div className="main-content">
+        <div className="page">
+          <Outlet />
+        </div>
+        <footer className="footer">
+          <p>&copy; 2025 Alisabeth Marsteller. All rights reserved.</p>
+        </footer>
       </div>
-      <footer className="footer">
-        <p> 2025 Ali Marsteller. All rights reserved.</p>
-      </footer>
     </div>
   )
 }
