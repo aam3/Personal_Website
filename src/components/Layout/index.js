@@ -13,10 +13,10 @@ const Layout = () => {
   return (
     <div className="App">
       <Sidebar />
+      <div className='footer'></div>
       <div className="page">
         <Outlet />
       </div>
-      <div className='footer'></div>
     </div>
   )
 }
