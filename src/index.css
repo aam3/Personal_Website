@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  width: 100%;
+  width: 100vw;
   height: 100%;  
   margin: 0;
   font: 300 11px/1.4 'Isabella Sans', sans-serif;
@@ -17,10 +17,10 @@ body {
   padding-bottom: 800px;
 }
 
-.dashboard {
+/* .dashboard {
   margin-top: 200px;
   margin-left: 200px;
-}
+} */
 
 @media screen and (max-width: 1200px) {
   body {
