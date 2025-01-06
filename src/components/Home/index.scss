@@ -1,13 +1,13 @@
 .home-page {
  
-    width: 100%;
+    width: 110%;
     height: 1015px;
     flex-shrink: 0;
     background-image: url('../../assets/images/DallE_bw_network_high_res.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    // background-attachment: fixed;
     position: relative;
 
     .content {
