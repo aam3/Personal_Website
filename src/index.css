@@ -3,8 +3,7 @@
 } */
 
 body, html {
-  background: url('./assets/images/DallE_bw_network_high_res.png') no-repeat center center fixed; 
-  background-size: cover;
+
   width: 100vw;
   height: 100%;  
   margin: 0;
