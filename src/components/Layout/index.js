@@ -16,7 +16,7 @@ const Layout = () => {
       <div className="page">
         <Outlet />
       </div>
-      <div className='footer'>&#8752; This website built in React JS</div>
+      <div className='footer'></div>
     </div>
   )
 }
