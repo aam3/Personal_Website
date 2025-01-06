@@ -3,6 +3,34 @@ $primary-color: #000000;
 // @import 'animate.css';
 // @import '~loaders.css/src/animations/pacman.scss';
 
+
+@font-face {
+  font-family: 'Libre Bodoni';
+  src: url('./assets/fonts/LibreBodoni-Regular.ttf') format('woff2'),
+    url('./assets/fonts/LibreBodoni-Regular.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bodoni';
+  src: url('./assets/fonts/Bodoni.woff2') format('woff2'),
+    url('./assets/fonts/Bodoni.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lekton';
+  src: url('./assets/fonts/Lekton.woff2') format('woff2'),
+    url('./assets/fonts/Lekton.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 @font-face {
   font-family: 'Isabella Sans';
   src: url('./assets/fonts/Isabella Sans Medium.woff2') format('woff2'),

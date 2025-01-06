@@ -3,7 +3,6 @@ import Home from './components/Home'
 import Layout from './components/Layout'
 import About from './components/About'
 import Publications from './components/Publications'
-import Resume from './components/Resume'
 import './App.scss'
 
 function App() {
@@ -14,7 +13,6 @@ function App() {
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="publications" element={<Publications />} />
-          <Route path="resume" element={<Resume />} />
         </Route>
       </Routes>
     </>
