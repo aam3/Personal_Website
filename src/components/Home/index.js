@@ -4,7 +4,6 @@ import {
   faLinkedin,
   faGithub,
 } from '@fortawesome/free-brands-svg-icons'
-import BG_image from '../../assets/images/DallE_bw_network_high_res.png'
 
 const Home = () => {
 
