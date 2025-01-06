@@ -15,10 +15,10 @@ const Layout = () => {
       <Sidebar />
       <div className="page">
         <Outlet />
-      </div>
         <div className="footer">
           <p>&copy; 2025 Your Website. All rights reserved.</p>
-        </div>
+        </div>        
+      </div>
     </div>
   )
 }
