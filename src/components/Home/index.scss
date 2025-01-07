@@ -132,25 +132,22 @@
   }
 
   .text-zone {
-
-    max-width: fit-content;
-
     h1 {
-      font-size: 36px; /* Smaller font size for mobile */
+      font-size: 30px; /* Smaller font size for mobile */
     }
     h2 {
-      font-size: 28px;
+      font-size: 24px;
     }
     h3 {
-      font-size: 20px;
+      font-size: 18px;
     }
     h4 {
-      font-size: 18px;
+      font-size: 16px;
     }
   }
 
   .resume-button {
-    font-size: 16px; /* Adjust button size for mobile */
+    font-size: 14px; /* Adjust button size for mobile */
     padding: 4px 20px;
   }
 }
