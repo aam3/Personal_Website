@@ -132,6 +132,9 @@
   }
 
   .text-zone {
+
+    max-width: fit-content;
+
     h1 {
       font-size: 36px; /* Smaller font size for mobile */
     }
