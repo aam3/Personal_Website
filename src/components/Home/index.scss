@@ -125,3 +125,29 @@
   }
 
 }
+
+@media (max-width: 768px) {
+  .home-page {
+    padding: 1rem; /* Adjust padding for mobile */
+  }
+
+  .text-zone {
+    h1 {
+      font-size: 36px; /* Smaller font size for mobile */
+    }
+    h2 {
+      font-size: 28px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+    h4 {
+      font-size: 18px;
+    }
+  }
+
+  .resume-button {
+    font-size: 16px; /* Adjust button size for mobile */
+    padding: 4px 20px;
+  }
+}
