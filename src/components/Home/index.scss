@@ -115,14 +115,33 @@
 // }
 
 @media (max-width: 768px) {
-
   .home-page {
-    font-size: 14px;
-    max-width: fit-content;
-  }
+      .text-zone {
+          padding: 0 15px;
+          box-sizing: border-box;
+          
+          h1 {
+              font-size: 32px;  // Reduced font size
+              letter-spacing: 8px;  // Reduced letter spacing
+              line-height: 3.5rem;  // Adjusted line height
+              margin-bottom: 4rem;  // Adjusted margin
+              -webkit-text-stroke: 0.8px #000000;  // Reduced stroke width
+          }
 
-  .text-zone {
-    max-width: fit-content;
-  }
+          h2 {
+              font-size: 18px;  // Reduced font size
+              letter-spacing: 5px;  // Reduced letter spacing
+              margin-bottom: 3rem;
+          }
 
+          h3, h4 {
+              font-size: 14px;
+              margin-bottom: 2rem;
+          }
+      }
+
+      .resume-button {
+          margin-bottom: 15rem;  // Reduced margin for mobile
+      }
+  }
 }
