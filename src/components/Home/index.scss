@@ -1,9 +1,9 @@
 .home-page {
 
     .content {
-      width: 1000px;
-      height: 798px;
-      flex-shrink: 0;
+      width: 100%;
+      max-width: 1000px;
+      height: auto;
     }
 
     .text-zone {
@@ -11,15 +11,14 @@
       // text-align: center;
       // width: 80%;
       // top: 5%;
-      width: 826px;
-      height: 325px;
-      flex-shrink: 0; 
+      width: 100%;
+      max-width: 826px;
+      height: auto;
       text-align: center;
 
       h1 {
         text-align: center;
         width: 100%;
-        white-space: nowrap;
         font-size: 46px;
         font-family: 'Libre Bodoni';
         font-weight: semibold;
@@ -39,7 +38,6 @@
         font-family: 'Lekton', sans-serif;
         font-size: 22px;
         margin-bottom: 6rem;
-        white-space: nowrap;
         color: #444345;
         letter-spacing: 10px;
       }
@@ -50,7 +48,6 @@
         font-family: 'Lekton', sans-serif;
         font-size: 16px;
         margin-bottom: 3rem;
-        white-space: nowrap;
         color: #444345;
         letter-spacing: 0.5px;
       }
@@ -127,21 +124,5 @@
   .text-zone {
     max-width: fit-content;
   }
-
-  h1 {
-    font-size: 1.8rem;
-}
-
-h2 {
-    font-size: 1.5rem;
-}
-
-h3 {
-    font-size: 1.3rem;
-}
-
-h4 {
-    font-size: 1.1rem;
-}  
 
 }
