@@ -1,93 +1,75 @@
 /* Custom Navbar Styles */
 
 .custom-navbar {
-  height: 70px;
+  background-color: transparent !important;
+  padding: 20px;
+  width: 100%;
   display: flex;
-  align-items: center; // This will vertically center the content
-  
+  justify-content: center;
 
-  .nav-content {
-
-    position: absolute;
-    left: 32%;
-
-    .nav-link {
-    
-      font-family: 'Isabella Sans light';
-      font-size: 19px;
-      color: #9e9c9c;
-      transition: color 0.3s ease;
-      margin: 0 3rem;
-    
-    }
-    
-
-    .nav-link:hover {
-      color: #434343;
-    }
-
-}
-
-  img {
-    align-self: flex-start;
-    width: 130px;
-    margin-top: 120px;
+  .container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
   }
 
-}
+  .navbar-collapse {
+    flex-grow: 0;
+    justify-content: center;
+    background-color: transparent;
+    
+    &.show {
+      background-color: transparent;
+    }
+  }
 
+  .nav-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    .nav-link {
+      font-family: 'Crimson Text';
+      font-size: 15px;
+      color: #444345;
+      transition: color 0.3s ease;
+      margin: 0 3rem;
+      text-align: center;
+      
+      &:hover {
+        color: #9e9c9c;
+      }
+    }
+  }
+
+  .navbar-toggler {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0 auto;
+    
+    &:focus {
+      box-shadow: none;
+    }
+  }
+
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2868, 67, 69, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+}
 
 /* Mobile styles */
 @media (max-width: 990px) {
   .custom-navbar {
-    padding: 0 15px; // Add some horizontal padding
-    border-bottom-color: #f1f0ee;
-    border-bottom-width: 1px;
-
-    .navbar-brand {
-      margin-top: 0; // Reset the margin
-
-      img {
-        width: 100px; // Slightly smaller logo for mobile
-        margin-top: 0; // Reset the margin
-      }
-    }
-
-    .navbar-toggler {
-      position: absolute;
-      top: 50%;
-      right: 15px;
-      transform: translateY(-50%);
-      margin: 0;
-      padding: 0.25rem;
-      z-index: 1001; // Ensure it's above other elements
-    }
-
-    .navbar-toggler-icon {
-      filter: invert(100%);
-    }
-
     .nav-content {
-      position: static; // Reset the absolute positioning
-      left: auto;
-      width: 100%;
-      display: flex;
       flex-direction: column;
-      align-items: center; // Center items horizontally
-    }
-
-    .navbar-collapse {
-      position: absolute;
-      top: 70px; // Height of the navbar
-      left: 0;
-      right: 0;
-      // background-color: dark;
-      z-index: 1000;
-    }
-
-    .nav-link {
-      margin: 0.5rem 0;
-      padding: 1rem 15px;
+      align-items: center;
+      
+      .nav-link {
+        margin: 0.5rem 0;
+      }
     }
   }
 }

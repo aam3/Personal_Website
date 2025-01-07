@@ -32,45 +32,20 @@ $primary-color: #000000;
 }
 
 @font-face {
-  font-family: 'Isabella Sans';
-  src: url('./assets/fonts/Isabella Sans Medium.woff2') format('woff2'),
-    url('./assets/fonts/Isabella Sans Medium.woff') format('woff');
+  font-family: 'Crimson Text';
+  src: url('./assets/fonts/Crimson Text Regular.woff2') format('woff2'),
+    url('./assets/fonts/Crimson Text Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
-@font-face {
-  font-family: 'Isabella Sans semibold';
-  src: url('./assets/fonts/Isabella Sans SemiBold.woff2') format('woff2'),
-    url('./assets/fonts/Isabella Sans SemiBold.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
 
 // https://www.onlinewebfonts.com/search?q=Isabella+Sans
 
-@font-face {
-  font-family: 'Isabella Sans black';
-  src: url('./assets/fonts/Isabella Sans Black.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Isabella Sans light';
-  src: url('./assets/fonts/Isabella Sans Light.woff2') format('woff2'),
-    url('./assets/fonts/Isabella Sans Light.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
 input,
 textarea {
-  font-family: 'Isabella Sans';
+  font-family: 'Lekton';
 }
 
 // .loader-hidden {

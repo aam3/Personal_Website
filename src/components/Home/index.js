@@ -8,7 +8,7 @@ const Home = () => {
                 <div className='text-zone'>
                     <h1>Alisabeth Marsteller</h1>
                     <h2>DATA SCIENTIST</h2>
-                    <h3>Inferential Statistics / Statistical Modeling / Causal Inference</h3>
+                    <h3>Inferential Statistics / Machine Learning / Spatial Analysis</h3>
                     <h4>Python / R / SQL</h4>
                     <a href={resumePDF} className="resume-button" target="_blank" rel="noopener noreferrer">Resumé</a>
                 </div>

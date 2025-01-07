@@ -1,22 +1,23 @@
 import './index.scss'
 import LogoS from '../../assets/images/Logo.svg'
 import React from 'react';
-import { Navbar, Nav } from 'react-bootstrap';
+import { Navbar, Nav, Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Sidebar = () => {
   return (
     <>
-    <Navbar expand="lg" className="custom-navbar" bg="dark" fixed="top" collapseOnSelect="true">
-        <Navbar.Brand href="/"><img className='signature-logo' src={LogoS} alt='logo'/></Navbar.Brand>
+    <Navbar expand="lg" className="custom-navbar" fixed="top" collapseOnSelect="true">
+      <Container className="justify-content-center">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="nav-content d-flex bg-dark" >
+        <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
+          <Nav className="nav-content">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
             <Nav.Link href="/publications">Publications</Nav.Link>
           </Nav>
         </Navbar.Collapse>
+      </Container>
     </Navbar>
     </>
   );
