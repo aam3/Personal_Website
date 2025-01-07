@@ -40,7 +40,8 @@
         paint-order: stroke fill;
         line-height: 5rem;
         letter-spacing: 15px;
-        margin-top: 6%;        
+        margin-top: 6%;
+        max-width: fit-content;        
       }
 
       h2 {
@@ -52,6 +53,7 @@
         white-space: nowrap;
         color: #444345;
         letter-spacing: 10px;
+        max-width: fit-content;
       }
 
       h3, h4 {
@@ -63,6 +65,7 @@
         white-space: nowrap;
         color: #444345;
         letter-spacing: 0.5px;
+        max-width: fit-content;
       }
 
       h4 {
@@ -83,6 +86,7 @@
         font-family: 'Libre Bodoni', serif;
         font-size: 18px;
         transition: all 0.3s ease-in-out;
+        max-width: fit-content;
 
         &:hover {
           background-color: #C0AA81;
@@ -100,54 +104,54 @@
 }
 
 
-@media screen and (max-width: 1200px) {
-  .tags,
-  .home-page h1:before,
-  .home-page h1:after {
-    display: none;
-  }
+// @media screen and (max-width: 1200px) {
+//   .tags,
+//   .home-page h1:before,
+//   .home-page h1:after {
+//     display: none;
+//   }
 
-  .home-page .text-zone {
-    position: initial;
-    width: 100%;
-    transform: none;
-    padding: 20px;
-    box-sizing: border-box;
+//   .home-page .text-zone {
+//     position: initial;
+//     width: 100%;
+//     transform: none;
+//     padding: 20px;
+//     box-sizing: border-box;
 
-    h1 {
-      margin-top: 13%
-    }
+//     h1 {
+//       margin-top: 13%
+//     }
 
-    h2 {
-      margin-top: 20%;
-      margin-bottom: 20%;
-    }
-  }
+//     h2 {
+//       margin-top: 20%;
+//       margin-bottom: 20%;
+//     }
+//   }
 
-}
+// }
 
-@media (max-width: 768px) {
-  .home-page {
-    padding: 1rem; /* Adjust padding for mobile */
-  }
+// @media (max-width: 768px) {
+//   .home-page {
+//     padding: 1rem; /* Adjust padding for mobile */
+//   }
 
-  .text-zone {
-    h1 {
-      font-size: 30px; /* Smaller font size for mobile */
-    }
-    h2 {
-      font-size: 24px;
-    }
-    h3 {
-      font-size: 18px;
-    }
-    h4 {
-      font-size: 16px;
-    }
-  }
+//   .text-zone {
+//     h1 {
+//       font-size: 30px; /* Smaller font size for mobile */
+//     }
+//     h2 {
+//       font-size: 24px;
+//     }
+//     h3 {
+//       font-size: 18px;
+//     }
+//     h4 {
+//       font-size: 16px;
+//     }
+//   }
 
-  .resume-button {
-    font-size: 14px; /* Adjust button size for mobile */
-    padding: 4px 20px;
-  }
-}
+//   .resume-button {
+//     font-size: 14px; /* Adjust button size for mobile */
+//     padding: 4px 20px;
+//   }
+// }
