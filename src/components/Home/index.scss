@@ -119,7 +119,13 @@
 
 @media (max-width: 768px) {
 
-  .text-zone {
-    max-width: 750px;
+  .home-page {
+    font-size: 14px;
+    max-width: fit-content;
   }
+
+  .text-zone {
+    max-width: fit-content;
+  }
+
 }
