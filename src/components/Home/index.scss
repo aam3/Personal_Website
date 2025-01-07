@@ -1,15 +1,5 @@
 .home-page {
 
-    // // width: 1500px;
-    // // height: 1015px;
-    // flex-shrink: 0;
-    // background-image: url('../../assets/images/DallE_bw_network_high_res.png');
-    // background-size: cover;
-    // background-position: center;
-    // background-repeat: repeat-x;
-    // // background-attachment: fixed;
-    // position: relative;
-
     .content {
       width: 1000px;
       height: 798px;
@@ -40,8 +30,7 @@
         paint-order: stroke fill;
         line-height: 5rem;
         letter-spacing: 15px;
-        margin-top: 6%;
-        max-width: fit-content;        
+        margin-top: 6%;        
       }
 
       h2 {
@@ -53,7 +42,6 @@
         white-space: nowrap;
         color: #444345;
         letter-spacing: 10px;
-        max-width: fit-content;
       }
 
       h3, h4 {
@@ -65,7 +53,6 @@
         white-space: nowrap;
         color: #444345;
         letter-spacing: 0.5px;
-        max-width: fit-content;
       }
 
       h4 {
@@ -130,28 +117,9 @@
 
 // }
 
-// @media (max-width: 768px) {
-//   .home-page {
-//     padding: 1rem; /* Adjust padding for mobile */
-//   }
+@media (max-width: 768px) {
 
-//   .text-zone {
-//     h1 {
-//       font-size: 30px; /* Smaller font size for mobile */
-//     }
-//     h2 {
-//       font-size: 24px;
-//     }
-//     h3 {
-//       font-size: 18px;
-//     }
-//     h4 {
-//       font-size: 16px;
-//     }
-//   }
-
-//   .resume-button {
-//     font-size: 14px; /* Adjust button size for mobile */
-//     padding: 4px 20px;
-//   }
-// }
+  .text-zone {
+    max-width: fit-content
+  }
+}
