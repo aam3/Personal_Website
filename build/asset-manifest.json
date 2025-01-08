@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.adbe445d.css",
+    "main.js": "/static/js/main.0eb22117.js",
+    "static/js/453.b8e3504e.chunk.js": "/static/js/453.b8e3504e.chunk.js",
+    "static/media/Profile_LessColor.png": "/static/media/Profile_LessColor.fb79c12711fa285cfbba.png",
+    "static/media/Isabella Sans Black.woff": "/static/media/Isabella Sans Black.e40b43781e5a81dbd125.woff",
+    "static/media/Isabella Sans SemiBold.woff": "/static/media/Isabella Sans SemiBold.5767c717c037d3dde340.woff",
+    "static/media/Isabella Sans Medium.woff": "/static/media/Isabella Sans Medium.eb50b282b6880ace9f6c.woff",
+    "static/media/Isabella Sans Light.woff": "/static/media/Isabella Sans Light.f3c182798e65dd05d449.woff",
+    "static/media/AMarsteller_Resume_2024.pdf": "/static/media/AMarsteller_Resume_2024.b4080212fc2a71fa41cb.pdf",
+    "static/media/Isabella Sans SemiBold.woff2": "/static/media/Isabella Sans SemiBold.29fec545554c12374826.woff2",
+    "static/media/Isabella Sans Medium.woff2": "/static/media/Isabella Sans Medium.3340a3fff99f99ae9ead.woff2",
+    "static/media/Isabella Sans Light.woff2": "/static/media/Isabella Sans Light.4121f46c2790e4f70ec8.woff2",
+    "static/media/Logo.svg": "/static/media/Logo.6110498ac58cbbd0defdce271b7a1409.svg",
+    "index.html": "/index.html",
+    "main.adbe445d.css.map": "/static/css/main.adbe445d.css.map",
+    "main.0eb22117.js.map": "/static/js/main.0eb22117.js.map",
+    "453.b8e3504e.chunk.js.map": "/static/js/453.b8e3504e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.adbe445d.css",
+    "static/js/main.0eb22117.js"
+  ]
+}
