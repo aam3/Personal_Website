@@ -59,7 +59,7 @@
       .resume-button {
         display: inline-block;
         margin-top: 2rem;
-        margin-bottom: 30rem;
+        margin-bottom: 3rem;
         padding: 6px 30px;
         background-color: rgba(192, 170, 129, 0.5);
         border: 1px solid #C0AA81;
@@ -78,15 +78,15 @@
       }
 
       .social-icons {
-        margin-top: 20px;
         display: flex;
         justify-content: center;
         gap: 20px;
-
+        margin-bottom: 30rem; /* Added to maintain the space below */
+  
         a {
           font-size: 30px;
           transition: all 0.3s ease-in-out;
-
+  
           &:hover {
             transform: scale(1.2);
           }
@@ -157,7 +157,7 @@
       }
 
       .resume-button {
-          margin-bottom: 15rem;  // Reduced margin for mobile
+          margin-bottom: 2rem;  // Reduced margin for mobile
       }
   }
 }

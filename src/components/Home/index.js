@@ -14,11 +14,11 @@ const Home = () => {
                     <h4>Python / R / SQL</h4>
                     <a href={resumePDF} className="resume-button" target="_blank" rel="noopener noreferrer">Resumé</a>
                     <div className="social-icons">
-                        <a href="https://github.com/amarsteller" target="_blank" rel="noopener noreferrer">
-                            <FontAwesomeIcon icon={faGithub} color="#000000" />
+                        <a href="https://github.com/aam3" target="_blank" rel="noopener noreferrer">
+                            <FontAwesomeIcon icon={faGithub} style={{ color: "#444345" }} />
                         </a>
-                        <a href="https://www.linkedin.com/in/alisabeth-marsteller/" target="_blank" rel="noopener noreferrer">
-                            <FontAwesomeIcon icon={faLinkedin} color="#000000" />
+                        <a href="https://www.linkedin.com/in/alisabeth-m-21273b117/" target="_blank" rel="noopener noreferrer">
+                            <FontAwesomeIcon icon={faLinkedin} style={{ color: "#444345" }} />
                         </a>
                     </div>
                 </div>
