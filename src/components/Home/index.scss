@@ -77,6 +77,22 @@
         }
       }
 
+      .social-icons {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+
+        a {
+          font-size: 30px;
+          transition: all 0.3s ease-in-out;
+
+          &:hover {
+            transform: scale(1.2);
+          }
+        }
+      }
+
     }
 
 
