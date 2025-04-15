@@ -1,5 +1,5 @@
 import './index.scss'
-import resumePDF from '../../assets/docs/AMarsteller_Resume_2024.pdf'
+import resumePDF from '../../assets/docs/AMarsteller_Resume_2025.pdf'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
