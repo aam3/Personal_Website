@@ -1,5 +1,5 @@
 import './index.scss'
-import ProfilePic from '../../assets/images/Profile_LessColor.png'
+// import ProfilePic from '../../assets/images/Profile_LessColor.png'
 
 const About = () => {
 
