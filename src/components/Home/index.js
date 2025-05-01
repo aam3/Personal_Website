@@ -10,7 +10,7 @@ const Home = () => {
                 <div className='text-zone'>
                     <h1>Alisabeth Marsteller</h1>
                     <h2>DATA SCIENTIST</h2>
-                    <h3>Statistical Modeling / KPI Development / Spatial Analysis</h3>
+                    <h3>Statistical Modeling / Complex Systems Analysis / KPI Development</h3>
                     <h4>Python / R / SQL</h4>
                     <a href={resumePDF} className="resume-button" target="_blank" rel="noopener noreferrer">Resumé</a>
                     <div className="social-icons">
